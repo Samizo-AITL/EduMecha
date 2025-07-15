@@ -82,3 +82,15 @@ This repository is released under the MIT License. Educational and non-commercia
   - Email：[shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
+
+## 💬 フィードバック・質問 | Feedback & Discussion
+
+教材に関するご質問・改善提案・使用事例の共有などは、GitHub Discussions にて歓迎します。  
+ぜひお気軽にご参加ください。
+
+👉 [EduMecha Discussions ページへ移動](https://github.com/Samizo-AITL/EduMecha/discussions)
+
+We welcome your questions, suggestions, and shared use cases in [EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions).  
+Feel free to join the conversation!
+
+---
