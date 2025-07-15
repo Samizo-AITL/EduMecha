@@ -17,10 +17,10 @@ It covers topics such as converting 2D drawings to 3D models, visualizing design
 
 ## 🔧 特徴 | Features
 
-- ✏️ 三面図からの3Dモデリング演習 / 2D → 3D modeling exercises
-- 📐 拘束条件と設計意図の理解 / Parametric constraints and design intent
-- 🧩 組立設計と部品図演習 / Assembly and part drawing training
-- 🛠 AITL-H知能制御と連携した筐体設計 / Enclosure design integrated with AITL-H intelligent control
+- ✏️ 三面図からの3Dモデリング演習 / 2D → 3D modeling exercises  
+- 📐 拘束条件と設計意図の理解 / Parametric constraints and design intent  
+- 🧩 組立設計と部品図演習 / Assembly and part drawing training  
+- 🛠 AITL-H知能制御と連携した筐体設計 / Enclosure design integrated with AITL-H intelligent control  
 - 📊 Creo Simulate等とのCAE連携（応力解析、重心評価など） / CAE integration (stress, center of mass analysis)
 
 ---
@@ -41,8 +41,6 @@ EduMecha/
 
 ---
 
----
-
 ## 🔗 関連プロジェクト | Related Projects
 
 - [Edusemi](https://github.com/Samizo-AITL/Edusemi-v4x)  
@@ -53,9 +51,6 @@ EduMecha/
 
 - [AITL-H](https://github.com/Samizo-AITL/AITL-H)  
   FSM×PID×LLMによる知能制御アーキテクチャ / Hierarchical intelligent control using FSM, PID, and LLM
-
-- [Rekiden](https://github.com/Samizo-AITL/Rekiden)  
-  対話型日本史シミュレーション教材 / Interactive historical simulation-based learning
 
 - [SamizoGPT](https://github.com/Samizo-AITL/SamizoGPT)  
   ChatGPTプロンプト支援・教材構築テンプレート集 / ChatGPT-based prompting and education support framework
@@ -76,4 +71,3 @@ This repository is released under the MIT License. Educational and non-commercia
 - Email: shin3t72@gmail.com
 
 ---
-
