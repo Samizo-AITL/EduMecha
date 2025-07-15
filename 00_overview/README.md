@@ -32,10 +32,51 @@ It provides a structured learning path from basic modeling and assembly to techn
 02: アセンブリ設計（拘束・干渉・接続）
  ↓
 03: 図面生成（三角法・寸法記入・製図規格）
- 
+ ↓
 04: 図面からの3D再構築（逆設計・意図推定）
  ↓
 05: 制御対象の筐体設計（FSM/PID構造と接続）
  ↓
-
 06: 応用設計（インクジェット構造などの産業設計例）
+```
+
+---
+
+---
+
+### 🎯 主な特徴 | Key Features
+
+- ✅ Creoによる**設計 → 組立 → 製図 → PoC接続**までを一貫して学習  
+- ✅ 制御対象との**統合筐体設計**（FSM/PID連携）を演習化  
+- ✅ **図面再構築（逆設計）**による図面理解力・空間認識力の育成  
+- ✅ EduController・AITL-H・Edusemiとの連携による**複合技術統合型教材**
+
+---
+
+## 🔗 関連プロジェクト | Related Projects
+
+- [**EduController**](https://github.com/Samizo-AITL/EduController)  
+  制御理論・AI制御教材（PID / NN / RL / LLM）
+
+- [**AITL-H**](https://github.com/Samizo-AITL/AITL-H)  
+  FSM × PID × LLM 統合型知能制御アーキテクチャ
+
+- [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x)  
+  半導体設計・製造・検査の統合教材（sky130ベース）
+
+- [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT)  
+  ChatGPT活用・プロンプト設計テンプレート群
+
+---
+
+## 📝 ライセンスと利用について | License & Usage
+
+本教材は [MITライセンス](https://opensource.org/licenses/MIT) に基づき、教育・研究・教材開発目的での自由な使用・改変・再配布が可能です。  
+図面やモデルの編集、授業や演習での利用、PoCとの連携も歓迎します。
+
+This content is released under the [MIT License](https://opensource.org/licenses/MIT).  
+Free to use, modify, and redistribute for educational, research, and development purposes.
+
+---
+
+
