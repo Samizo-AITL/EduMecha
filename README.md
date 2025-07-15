@@ -4,6 +4,8 @@
 **Parametric Mechanical Design Educational Materials (for Creo users)**
 
 ---
+- 🇺🇸 [English version available here](./README_en.md)
+---
 
 ## 📘 概要 | Overview
 
