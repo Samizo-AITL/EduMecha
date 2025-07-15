@@ -39,18 +39,18 @@ EduMecha/
 
 ## 🔗 Related Projects
 
-- **Edusemi**  
+- [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x)  
   Educational content on semiconductor design and IC implementation using sky130
 
-- **EduController**  
+- [**EduController**](https://github.com/Samizo-AITL/EduController)  
   Educational materials on control theory and AI control (PID, state-space, neural networks, LLM)
 
-- **AITL-H**  
+- [**AITL-H**](https://github.com/Samizo-AITL/AITL-H)  
   Hierarchical intelligent control architecture using FSM, PID, and LLM
 
-- **SamizoGPT**  
+- [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT)  
   ChatGPT-based prompting and education support framework
-
+  
 ---
 
 ## 📜 License
