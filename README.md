@@ -65,21 +65,19 @@ This repository is released under the MIT License. Educational and non-commercia
 
 ---
 
-## 🧑‍🔬 執筆者情報 | Author
+## 👤 執筆者情報 / Author
 
-- **氏名 / Name**：三溝 真一（Shinichi Samizo）  
-- **学歴 / Education**：信州大学大学院 電気電子工学修士課程 修了  
+**三溝 真一（Shinichi Samizo）**  
+- 信州大学大学院電気電子工学修士課程修了
+- 元 セイコーエプソン株式会社 技術者（1997年〜）  
 
-- **職歴 / Experience**：  
-  セイコーエプソン株式会社にて以下の開発・製品化に従事：  
-  - 半導体デバイス技術（0.35µm〜0.18µmノード）  
-  - ロジック／メモリ／高耐圧インテグレーション技術  
-  - インクジェット薄膜ピエゾアクチュエータ設計  
-  - PrecisionCoreプリントヘッドの製品化展開
+**経験領域**：
+- 半導体デバイス開発・製品化（ロジック・メモリ・高耐圧混載）
+- 薄膜ピエゾアクチュエータ開発
+- PrecisionCoreプリントヘッド製品化
 
-- **連絡先 / Contact**：  
-  - GitHub：[Samizo-AITL](https://github.com/Samizo-AITL)  
-  - Email：[shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
+📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
 
