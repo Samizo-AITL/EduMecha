@@ -1,3 +1,42 @@
+# 03_prototyping
+
+**3Dモデルの試作と出力形式の検討**  
+**Prototyping and Exporting 3D Models**
+
+---
+
+## 📘 概要 | Overview
+
+このセクションでは、設計した3Dモデルを試作品として出力するプロセスを学びます。  
+STL形式への変換、積層方向の考慮、サポート材の設定、スライサーソフトの操作など、**製造性・加工性を意識したデータ出力**のスキルを習得します。
+
+In this section, learners practice converting their 3D models into formats suitable for prototyping (e.g., STL).  
+Topics include slicing, print orientation, support structure planning, and design-for-manufacturing principles.
+
+---
+
+## 🧑‍🏫 学習目標 | Learning Objectives
+
+- CreoからSTL形式などへのエクスポート方法を理解する  
+- 積層造形を想定した形状設計の工夫を学ぶ  
+- スライサーソフト（例：Cura）での条件設定を体験する  
+- 3Dプリンタや加工機の仕様を意識したモデル変換を行う  
+- 試作結果に基づく設計フィードバックの視点を得る  
+
+---
+
+## 📂 サブディレクトリ構成 | Subdirectories
+
+```text
+03_prototyping/
+├── stl_exports/           # STLファイルと出力設定
+├── slicing_examples/      # スライス設定例（Cura等）
+├── prototyping_notes/     # 試作設計メモ・反省点
+└── prototype_photos/      # 試作品の写真（任意）
+```
+
+---
+
 ## 📝 添付ファイル一覧 | Planned Files (後で作図予定)
 
 | ファイル名 | 内容 | 備考 |
