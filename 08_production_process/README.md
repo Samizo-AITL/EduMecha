@@ -18,7 +18,7 @@ It emphasizes design intent, feedback from prototyping, proper tolerance/materia
 ## 🔁 設計プロセスフロー | Design-to-MP Workflow
 
 ```mermaid
-flowchart LR
+flowchart TD
   A[Creo設計 / 3D Modeling] --> B[設計図面 / Initial Drawing]
   B --> C[試作 / Prototyping]
   C --> D[計測 / Evaluation]
