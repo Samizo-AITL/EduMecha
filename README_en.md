@@ -38,6 +38,7 @@ EduMecha/
 ├── 05_mechatronic_integration/  # Integration with control systems (AITL-H enclosures)
 ├── 06_drafting_fundamentals/    # Drafting basics (views, dimensions, tolerances, JIS)
 ├── 07_measurement_tools/        # Dimensional metrology (measurement, calibration, traceability)
+├── 08_production_process/       # End-to-end process: modeling → DR → mass production
 └── assets/                      # Models, drawings (PDF), illustrations
 ```
 
