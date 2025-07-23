@@ -58,6 +58,9 @@ EduMecha/
 - [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT)  
   ChatGPT-based prompting and education support framework / ChatGPT活用支援テンプレート
 
+- [**PTC Creo Parametric (Official Site)**](https://www.ptc.com/en/products/creo)  
+  3D CAD platform for modeling, assembly, and simulation / モデリング・アセンブリ・シミュレーション対応3D CADシステム
+
 ---
 
 ## 📜 License
