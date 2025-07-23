@@ -68,6 +68,10 @@ EduMecha/
   ChatGPTプロンプト支援・教材テンプレート・構成管理支援フレームワーク  
   *Prompt engineering and education framework based on ChatGPT*
 
+- [**PTC Creo Parametric 公式サイト**](https://www.ptc.com/en/products/creo)  
+  モデリング・アセンブリ・シミュレーションに対応した3D CADシステム  
+  *Official site for PTC Creo Parametric, a powerful 3D CAD platform for modeling, assembly, and simulation*
+  
 ---
 
 ## 📜 ライセンス | License
