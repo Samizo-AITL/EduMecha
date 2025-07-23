@@ -88,8 +88,10 @@ This repository is released under the MIT License. Educational and non-commercia
 - 薄膜ピエゾアクチュエータ技術  
 - PrecisionCoreプリントヘッド製品化と構成管理
 
-📫 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
-📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+📬 **連絡先**
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
