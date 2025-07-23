@@ -67,20 +67,21 @@ MITライセンスに基づき、教育・非営利目的での再利用を歓�
 
 ---
 
-## 🧑‍🔬 Author
+## 👤 Author Profile
 
-- **Name**: Shinichi Samizo  
-- **Education**: M.S. in Electrical and Electronic Engineering, Shinshu University Graduate School  
-- **Experience**:  
-  Former engineer at Seiko Epson Corporation. Engaged in:  
-  - Semiconductor process development (0.35µm to 0.18µm nodes)  
-  - Logic, memory, and high-voltage integration  
-  - Thin-film piezo actuator design for inkjet systems  
-  - Development and commercialization of PrecisionCore printheads  
+**Shinichi Samizo**  
+- M.S. in Electrical and Electronic Engineering, Shinshu University  
+- Former R&D Engineer at Seiko Epson Corporation (1997–)
 
-- **Contact**:  
-  - GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
-  - Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+📌 **Expertise**:  
+- Semiconductor devices (logic, memory, high-voltage mixed process)  
+- Thin-film piezoelectric actuators  
+- PrecisionCore printhead commercialization, configuration management, and technical education
+
+📬 **Contact**  
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
