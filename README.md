@@ -22,15 +22,19 @@ It provides hands-on learning in 2D-to-3D modeling, design intent visualization,
 ## 🔧 特徴 | Features
 
 - ✏️ **三面図からの3Dモデリング演習**  
-  2D → 3D modeling exercises  
+  *2D → 3D modeling exercises*
+
 - 📐 **拘束条件と設計意図の理解**  
-  Understanding parametric constraints and design intent  
+  *Understanding parametric constraints and design intent*
+
 - 🧩 **組立設計と部品図演習**  
-  Assembly modeling and part drawing training  
+  *Assembly modeling and part drawing training*
+
 - 🛠 **AITL-H知能制御と連携した筐体設計**  
-  Enclosure design integrated with AITL-H intelligent control system  
-- 📊 **Creo Simulate等とのCAE連携**（応力解析、重心評価など）  
-  Integration with CAE tools such as Creo Simulate (stress, mass center, etc.)
+  *Enclosure design integrated with AITL-H intelligent control system*
+
+- 📊 **Creo Simulate等とのCAE連携**  
+  *Integration with CAE tools such as Creo Simulate (stress analysis, center of gravity, etc.)*
 
 ---
 
@@ -47,8 +51,13 @@ EduMecha/
 ├── 06_drafting_fundamentals/    # 製図の基本（投影・断面・寸法・公差・JIS）
 ├── 07_measurement_tools/        # 計測器と寸法評価（測定・校正・トレーサビリティ）
 ├── 08_production_process/       # 量産移行までの一貫プロセス教材
+├── templates/                   # Creo用パラメトリックテンプレート（仕様書付き）
 └── assets/                      # モデルデータ・図面PDF・教材画像など
 ```
+
+📁 Creo用テンプレート一覧 → [`templates/`](./templates/)
+
+---
 
 ## 🔗 関連プロジェクト | Related Projects
 
@@ -68,10 +77,10 @@ EduMecha/
   ChatGPTプロンプト支援・教材テンプレート・構成管理支援フレームワーク  
   *Prompt engineering and education framework based on ChatGPT*
 
-- [**PTC Creo Parametric 公式サイト**](https://www.ptc.com/en/products/creo)  
+- [**PTC Creo Parametric（公式サイト）**](https://www.ptc.com/en/products/creo)  
   モデリング・アセンブリ・シミュレーションに対応した3D CADシステム  
-  *Official site for PTC Creo Parametric, a powerful 3D CAD platform for modeling, assembly, and simulation*
-  
+  *Official site for PTC Creo Parametric*
+
 ---
 
 ## 📜 ライセンス | License
@@ -87,15 +96,15 @@ This repository is released under the MIT License. Educational and non-commercia
 - 信州大学大学院 電気電子工学 修了  
 - 元 セイコーエプソン株式会社 技術者（1997年〜）
 
-📌 **経験領域**：  
+📌 **経験領域**  
 - 半導体デバイス（ロジック／メモリ／高耐圧混載）  
 - 薄膜ピエゾアクチュエータ技術  
 - PrecisionCoreプリントヘッド製品化と構成管理
 
-📬 **連絡先**
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+📬 **連絡先**  
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [@shin3t72 on X](https://x.com/shin3t72)  
+- 💻 [samizo-aitl.github.io](https://samizo-aitl.github.io/)
 
 ---
 
@@ -107,4 +116,4 @@ This repository is released under the MIT License. Educational and non-commercia
 👉 [EduMecha Discussions ページへ移動](https://github.com/Samizo-AITL/EduMecha/discussions)
 
 We welcome your questions, suggestions, and use case sharing in [EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions).  
-Feel free to join the conversation!
+Feel free to join the conversation
