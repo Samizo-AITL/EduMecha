@@ -19,16 +19,15 @@ Yaw（外枠）とPitch（内枠）をもつ構造に、IMUを搭載すること
 
 ## 制御構成（FSM × PID × LLM）
 
-- [`control_design/`](control_design/)：制御構成ファイル・プロンプト群
-  - [`llm_prompts.md`](control_design/llm_prompts.md)：ChatGPTによる目標生成・異常対話の支援
-- [`fsm.yaml`](fsm.yaml)：状態定義（idle → move → error）※存在する場合に限る
-- [`pid_params.md`](pid_params.md)：各軸のPIDゲインと調整法（※存在する場合に限る）
+- [`control_design/fsm.md`](control_design/fsm.md)：状態定義（idle → move → error）
+- [`control_design/pid_params.md`](control_design/pid_params.md)：各軸のPIDゲインと調整法
+- [`control_design/llm_prompts.md`](control_design/llm_prompts.md)：ChatGPTによる目標生成・異常対話の支援
 
 ## 実習課題例
 
 1. ジンバル構造をCreoで構成し、2軸回転可能な拘束条件を設定せよ
-2. FSM制御（[`fsm.yaml`](fsm.yaml)）を用いて状態遷移シミュレーションを行え
-3. PID調整によりIMU値の安定性を高め、振動抑制制御を設計せよ（[`pid_params.md`](pid_params.md)）
+2. FSM制御（[`fsm.md`](control_design/fsm.md)）を用いて状態遷移シミュレーションを行え
+3. PID調整によりIMU値の安定性を高め、振動抑制制御を設計せよ（[`pid_params.md`](control_design/pid_params.md)）
 4. LLM（ChatGPT）との連携により、異常ログから目標生成・対話補助を行え（[`llm_prompts.md`](control_design/llm_prompts.md)）
 
 ## 実装補助コード・演習ファイル
