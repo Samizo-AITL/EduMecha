@@ -30,7 +30,7 @@ While no Creo CAD files are included, you can create or obtain your own models u
   → [PTC Education Portal](https://www.ptc.com/en/education/free-software/creo-university-download)
 
 📄 For step-by-step instructions on installing Creo, building `.prt` / `.asm` files, and exporting `.step` or `.pdf` formats for educational use, refer to:  
-[`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+[`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
 
 This guidance is designed to support instructors and curriculum developers in customizing their own instructional models compatible with EduMecha.
 
