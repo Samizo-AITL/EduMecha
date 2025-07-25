@@ -4,97 +4,116 @@
 **機械設計教育のためのパラメトリック設計教材（Creo対応）**
 
 ---
+
 - 🇯🇵 [日本語版はこちら](./README.md)
+
 ---
 
 ## 📘 Overview | 概要
 
-**EduMecha** is an educational repository designed to provide structured learning in mechanical design using parametric 3D CAD—primarily PTC Creo Parametric.  
-It offers a comprehensive curriculum covering 2D-to-3D modeling, visualization of design intent, enclosure design, third-angle projection, assembly modeling, and CAE integration.
+**EduMecha** is an educational repository designed for structured learning of mechanical design using parametric 3D CAD (primarily PTC Creo Parametric).  
+It enables hands-on learning in 2D-to-3D modeling, design intent visualization, enclosure modeling, third-angle projection, assembly design, and CAE integration.
 
-**EduMecha** は、PTC Creo Parametric を中心としたパラメトリック3D CADを用いて、機械設計を体系的に学ぶ教育用教材です。
-
----
-
-## 🔧 Features | 特徴
-
-- ✏️ **2D → 3D modeling exercises** / 三面図からの3Dモデリング演習  
-- 📐 **Understanding parametric constraints and design intent** / 拘束条件と設計意図の理解  
-- 🧩 **Assembly design and part drawing training** / 組立設計と部品図演習  
-- 🛠 **Enclosure design integrated with AITL-H intelligent control** / AITL-H知能制御と連携した筐体設計  
-- 📊 **CAE integration** (e.g. stress analysis, center of mass) / CAE連携（応力解析、重心評価など）
+**EduMecha** は、PTC Creo Parametric を活用し、2D図面から3D設計、筐体構造、アセンブリ、CAE解析までを一貫して学ぶ教育リポジトリです。
 
 ---
 
-## 🧱 Directory Structure | 教材構成
+## 🔧 Features
+
+- ✏️ **2D → 3D modeling practice**  
+- 📐 **Understanding parametric constraints and design intent**  
+- 🧩 **Assembly modeling and drawing practice**  
+- 🛠 **Enclosure design integrated with AITL-H intelligent control system**  
+- 📊 **Integration with CAE tools like Creo Simulate (stress, COG, etc.)**
+
+---
+
+## 🧱 Directory Structure
 
 ```text
 EduMecha/
-├── 00_overview/                 # Overview and roadmap
-├── 01_parametric_basics/        # Introduction to Creo and parametric modeling
-├── 02_assembly_design/          # Assembly modeling and design practice
-├── 03_drawing_skills/           # Orthographic projection and drawing generation
-├── 04_legacy2parametric/        # From legacy hand-drawn to 3D CAD modeling
-├── 05_mechatronic_integration/  # Integration with control systems (AITL-H enclosures)
-├── 06_drafting_fundamentals/    # Drafting basics (views, dimensions, tolerances, JIS)
-├── 07_measurement_tools/        # Dimensional metrology (measurement, calibration, traceability)
-├── 08_production_process/       # End-to-end process: modeling → DR → mass production
-└── assets/                      # Models, drawings (PDF), illustrations
+├── 00_overview/                 
+├── 01_parametric_basics/        
+├── 02_assembly_design/          
+├── 03_drawing_skills/           
+├── 04_legacy2parametric/        
+├── 05_mechatronic_integration/  
+├── 06_drafting_fundamentals/    
+├── 07_measurement_tools/        
+├── 08_production_process/       
+├── templates/                   
+└── assets/                      
 ```
+
+| Directory | Description |
+|-----------|-------------|
+| [`00_overview/`](./00_overview/)                 | Overview and map of the repository |
+| [`01_parametric_basics/`](./01_parametric_basics/)        | Basic Creo operation & parametric design |
+| [`02_assembly_design/`](./02_assembly_design/)          | Assembly design and constraint training |
+| [`03_drawing_skills/`](./03_drawing_skills/)           | Orthographic projection & drawing generation |
+| [`04_legacy2parametric/`](./04_legacy2parametric/)        | 2D-to-3D modeling from hand-drawn sketches |
+| [`05_mechatronic_integration/`](./05_mechatronic_integration/)  | PoC integration with intelligent control (AITL-H) |
+| [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | Basics of technical drawing (projections, tolerances, JIS) |
+| [`07_measurement_tools/`](./07_measurement_tools/)        | Dimensional evaluation with tools & calibration |
+| [`08_production_process/`](./08_production_process/)       | Integrated process toward mass production |
+| [`templates/`](./templates/)                   | Parametric model templates with specifications |
+| [`assets/`](./assets/)                         | Models, drawings, and illustrations |
 
 ---
 
-## 🔗 Related Projects | 関連プロジェクト
+## 🔗 Related Projects
 
 - [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x)  
-  Semiconductor design & IC implementation using sky130 / 半導体設計・sky130教材
+  Educational resources for semiconductor design using sky130
 
 - [**EduController**](https://github.com/Samizo-AITL/EduController)  
-  Control theory and AI control (PID, state-space, NN, LLM) / 制御理論・AI制御教材
+  Control theory & AI-based control with PID, state-space, RL, and LLMs
 
 - [**AITL-H**](https://github.com/Samizo-AITL/AITL-H)  
-  Hierarchical intelligent control using FSM, PID, and LLM / FSM×PID×LLMによる知能制御
+  Hierarchical intelligent control architecture (FSM × PID × LLM)
 
 - [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT)  
-  ChatGPT-based prompting and education support framework / ChatGPT活用支援テンプレート
+  Prompt engineering & template framework for structured education with LLMs
 
-- [**PTC Creo Parametric (Official Site)**](https://www.ptc.com/en/products/creo)  
-  3D CAD platform for modeling, assembly, and simulation / モデリング・アセンブリ・シミュレーション対応3D CADシステム
+- [**PTC Creo Parametric (official)**](https://www.ptc.com/en/products/creo)  
+  Professional 3D CAD software for modeling, assembly, and simulation
 
 ---
 
 ## 📜 License
 
-Released under the MIT License. Educational and non-commercial reuse is encouraged.  
-MITライセンスに基づき、教育・非営利目的での再利用を歓迎します。
+This repository is released under the MIT License.  
+Reuse for educational and non-commercial purposes is encouraged.
+
+MITライセンスに基づき公開されています。教育・非営利での活用を歓迎します。
 
 ---
 
-## 👤 Author Profile
+## 👤 Author
 
 **Shinichi Samizo**  
-- M.S. in Electrical and Electronic Engineering, Shinshu University  
-- Former R&D Engineer at Seiko Epson Corporation (1997–)
+- M.Eng. in Electrical & Electronic Engineering (Shinshu University)  
+- Former Seiko Epson engineer (1997–)
 
-📌 **Expertise**:  
-- Semiconductor devices (logic, memory, high-voltage mixed process)  
-- Thin-film piezoelectric actuators  
-- PrecisionCore printhead commercialization, configuration management, and technical education
+📌 **Expertise**  
+- Semiconductor devices (logic, memory, HV-mixed processes)  
+- Thin-film piezo actuator technology  
+- Productization & configuration of PrecisionCore printheads
 
 📬 **Contact**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [@shin3t72 on X](https://x.com/shin3t72)  
+- 💻 [samizo-aitl.github.io](https://samizo-aitl.github.io/)
 
 ---
 
 ## 💬 Feedback & Discussion
 
-Questions, suggestions, and user case contributions are welcome on GitHub Discussions.  
-Feel free to share your thoughts and join the conversation!
+We welcome your questions, suggestions, and use case sharing in GitHub Discussions.  
+Feel free to join the conversation!
 
 👉 [Go to EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions)
 
-教材に関するご質問や提案なども、日本語でお気軽にどうぞ。
+教材に関する質問・改善提案・事例共有は [GitHub Discussions](https://github.com/Samizo-AITL/EduMecha/discussions) へどうぞ。
 
 ---
