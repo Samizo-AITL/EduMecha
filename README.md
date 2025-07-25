@@ -21,6 +21,26 @@
 
 ---
 
+### 📥 モデルデータ（.prt / .asm）入手・作成方法のご案内 | How to Obtain or Create Model Files
+
+PTC社が提供する **無料プラン**（以下参照）を利用することで、演習用の `.prt` や `.asm` ファイルを自身で作成・取得することができます。
+
+- **Creo Parametric Free Trial（14日間）**：  
+  商用CADと同等機能を備えた評価版。短期間で教材モデルを構築する際に適しています。  
+  [Try Creo Free Trial – PTC公式サイト](https://www.ptc.com/en/try-and-buy/free-trials)
+
+- **Creo University Student Version（1年間）**：  
+  教員・学生向けの教育用途限定ライセンス。継続的な教材開発・学生教育に適しています。  
+  [Free Creo for Students and Educators](https://www.ptc.com/en/education/free-software/creo-university-download)
+
+**詳細な作成・保存・エクスポート手順については、以下の補助ガイドをご覧ください：**  
+📄 [`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+
+> By using PTC's official free versions of Creo Parametric (trial or university edition), you can create `.prt`, `.asm`, and `.drw` files yourself for use in exercises.  
+> See the companion guide here: [`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+
+---
+
 ## 📘 概要 | Overview
 
 **EduMecha** は、パラメトリック3D CAD（主に PTC Creo Parametric）を活用し、機械設計の基礎から応用までを体系的に学ぶための教育用教材構成テンプレートです。  
