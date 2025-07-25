@@ -42,20 +42,32 @@ It provides hands-on learning in 2D-to-3D modeling, design intent visualization,
 
 ```text
 EduMecha/
-├── 00_overview/                 # 教材概要とマップ
-├── 01_parametric_basics/        # Creo操作入門とパラメトリック設計演習
-├── 02_assembly_design/          # 組立・アセンブリ設計
-├── 03_drawing_skills/           # 三角法と図面生成の理解
-├── 04_legacy2parametric/        # 手描き図面 → 3Dモデリング教材
-├── 05_mechatronic_integration/  # 制御対象との連携PoC（AITL-H筐体設計など）
-├── 06_drafting_fundamentals/    # 製図の基本（投影・断面・寸法・公差・JIS）
-├── 07_measurement_tools/        # 計測器と寸法評価（測定・校正・トレーサビリティ）
-├── 08_production_process/       # 量産移行までの一貫プロセス教材
-├── templates/                   # Creo用パラメトリックテンプレート（仕様書付き）
-└── assets/                      # モデルデータ・図面PDF・教材画像など
+├── 00_overview/                 
+├── 01_parametric_basics/        
+├── 02_assembly_design/          
+├── 03_drawing_skills/           
+├── 04_legacy2parametric/        
+├── 05_mechatronic_integration/  
+├── 06_drafting_fundamentals/    
+├── 07_measurement_tools/        
+├── 08_production_process/       
+├── templates/                   
+└── assets/                      
 ```
 
-📁 Creo用テンプレート一覧 → [`templates/`](./templates/)
+| ディレクトリ | 内容 |
+|--------------|------|
+| [`00_overview/`](./00_overview/)                 | 教材概要とマップ |
+| [`01_parametric_basics/`](./01_parametric_basics/)        | Creo操作入門とパラメトリック設計演習 |
+| [`02_assembly_design/`](./02_assembly_design/)          | 組立・アセンブリ設計 |
+| [`03_drawing_skills/`](./03_drawing_skills/)           | 三角法と図面生成の理解 |
+| [`04_legacy2parametric/`](./04_legacy2parametric/)        | 手描き図面 → 3Dモデリング教材 |
+| [`05_mechatronic_integration/`](./05_mechatronic_integration/)  | 制御対象との連携PoC（AITL-H筐体設計など） |
+| [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | 製図の基本（投影・断面・寸法・公差・JIS） |
+| [`07_measurement_tools/`](./07_measurement_tools/)        | 計測器と寸法評価（測定・校正・トレーサビリティ） |
+| [`08_production_process/`](./08_production_process/)       | 量産移行までの一貫プロセス教材 |
+| [`templates/`](./templates/)                   | Creo用パラメトリックテンプレート（仕様書付き） |
+| [`assets/`](./assets/)                         | モデルデータ・図面PDF・教材画像など |
 
 ---
 
@@ -116,4 +128,6 @@ This repository is released under the MIT License. Educational and non-commercia
 👉 [EduMecha Discussions ページへ移動](https://github.com/Samizo-AITL/EduMecha/discussions)
 
 We welcome your questions, suggestions, and use case sharing in [EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions).  
-Feel free to join the conversation
+Feel free to join the conversation!
+
+---
