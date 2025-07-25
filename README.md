@@ -5,7 +5,7 @@
 
 ---
 
-- 🇺🇸 [English version available here](./README_en.md)
+🇺🇸 **[English version available here](./README_en.md)**
 
 ---
 
