@@ -31,17 +31,15 @@ flowchart TD
 ---
 
 ## 📂 ディレクトリ構成 | Directory Structure
-```
-08_production_process/
-├── 01_creo_modeling/         # 初期モデリング例（パラメトリック設計）
-├── 02_drawing_creation/      # 設計図面（設計意図入り）
-├── 03_prototyping/           # 試作とモデル出力（STL等）
-├── 04_measurement_report/    # 計測結果と改善点レポート
-├── 05_production_drawing/    # 量産用製図（材料・公差含む）
-├── 06_bom_generation/        # BOMテンプレートと記入例
-├── 07_design_review/         # DR資料（チェックリスト・議事録）
-└── 08_mp_guideline/          # 量産移行ガイドライン（工程/構成管理）
-```
+
+- [01_creo_modeling/](01_creo_modeling/)：初期モデリング例（パラメトリック設計）
+- [02_drawing_creation/](02_drawing_creation/)：設計図面（設計意図入り）
+- [03_prototyping/](03_prototyping/)：試作とモデル出力（STL等）
+- [04_measurement_report/](04_measurement_report/)：計測結果と改善点レポート
+- [05_production_drawing/](05_production_drawing/)：量産用製図（材料・公差含む）
+- [06_bom_generation/](06_bom_generation/)：BOMテンプレートと記入例
+- [07_design_review/](07_design_review/)：DR資料（チェックリスト・議事録）
+- [08_mp_guideline/](08_mp_guideline/)：量産移行ガイドライン（工程/構成管理）
 
 ---
 
@@ -69,11 +67,11 @@ flowchart TD
 
 ## 🔗 関連セクション | Related Sections
 
-- [`03_drawing_skills/`](../03_drawing_skills/)  
+- [`../03_drawing_skills/`](../03_drawing_skills/)  
   基本的な製図スキルと連携  
-- [`07_measurement_tools/`](../07_measurement_tools/)  
+- [`../07_measurement_tools/`](../07_measurement_tools/)  
   寸法評価と計測器の使用法  
-- [`05_mechatronic_integration/`](../05_mechatronic_integration/)  
+- [`../05_mechatronic_integration/`](../05_mechatronic_integration/)  
   制御対象と設計統合したPoC演習  
 
 ---
@@ -93,6 +91,4 @@ Pull Request または Discussions にてご連絡ください。
 
 We welcome your suggestions, enhancements, and case studies.  
 Feel free to submit a PR or join the [Discussions](https://github.com/Samizo-AITL/EduMecha/discussions).
-
----
 
