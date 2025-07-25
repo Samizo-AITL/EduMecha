@@ -34,10 +34,10 @@ PTC社が提供する **無料プラン**（以下参照）を利用すること
   [Free Creo for Students and Educators](https://www.ptc.com/en/education/free-software/creo-university-download)
 
 **詳細な作成・保存・エクスポート手順については、以下の補助ガイドをご覧ください：**  
-📄 [`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+📄 [`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
 
 > By using PTC's official free versions of Creo Parametric (trial or university edition), you can create `.prt`, `.asm`, and `.drw` files yourself for use in exercises.  
-> See the companion guide here: [`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+> See the companion guide here: [`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
 
 ---
 
