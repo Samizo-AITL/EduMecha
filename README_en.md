@@ -9,10 +9,21 @@
 
 ---
 
-## 📘 Overview | 概要
+## ⚠️ Important Notice
+
+> ❗️**This repository does not include PTC Creo files (.prt / .asm / .drw) for exercises.**  
+> EduMecha is intended as a *curriculum framework and instructional design template* for mechanical design education using parametric 3D CAD.  
+> It is a resource for instructors, curriculum designers, and researchers rather than a ready-to-use exercise set.
+
+> ❗️**本リポジトリには、PTC Creoの演習ファイル（.prt / .asm / .drwなど）は含まれていません。**  
+> EduMechaは、「設計教育構成の雛形」として教材設計者向けに提供されています。
+
+---
+
+## 📘 Overview
 
 **EduMecha** is an educational repository designed for structured learning of mechanical design using parametric 3D CAD (primarily PTC Creo Parametric).  
-It enables hands-on learning in 2D-to-3D modeling, design intent visualization, enclosure modeling, third-angle projection, assembly design, and CAE integration.
+It enables conceptual and instructional planning for 2D-to-3D modeling, design intent visualization, enclosure design, orthographic drawing, assembly modeling, and CAE integration.
 
 **EduMecha** は、PTC Creo Parametric を活用し、2D図面から3D設計、筐体構造、アセンブリ、CAE解析までを一貫して学ぶ教育リポジトリです。
 
@@ -47,17 +58,17 @@ EduMecha/
 
 | Directory | Description |
 |-----------|-------------|
-| [`00_overview/`](./00_overview/)                 | Overview and map of the repository |
-| [`01_parametric_basics/`](./01_parametric_basics/)        | Basic Creo operation & parametric design |
-| [`02_assembly_design/`](./02_assembly_design/)          | Assembly design and constraint training |
-| [`03_drawing_skills/`](./03_drawing_skills/)           | Orthographic projection & drawing generation |
-| [`04_legacy2parametric/`](./04_legacy2parametric/)        | 2D-to-3D modeling from hand-drawn sketches |
-| [`05_mechatronic_integration/`](./05_mechatronic_integration/)  | PoC integration with intelligent control (AITL-H) |
-| [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | Basics of technical drawing (projections, tolerances, JIS) |
-| [`07_measurement_tools/`](./07_measurement_tools/)        | Dimensional evaluation with tools & calibration |
-| [`08_production_process/`](./08_production_process/)       | Integrated process toward mass production |
-| [`templates/`](./templates/)                   | Parametric model templates with specifications |
-| [`assets/`](./assets/)                         | Models, drawings, and illustrations |
+| [`00_overview/`](./00_overview/)                 | Repository overview and content map |
+| [`01_parametric_basics/`](./01_parametric_basics/)        | Intro to Creo and basic parametric modeling |
+| [`02_assembly_design/`](./02_assembly_design/)          | Assembly modeling and constraint practices |
+| [`03_drawing_skills/`](./03_drawing_skills/)           | Orthographic projection and drawing creation |
+| [`04_legacy2parametric/`](./04_legacy2parametric/)        | Modeling from hand-drawn sketches |
+| [`05_mechatronic_integration/`](./05_mechatronic_integration/)  | Integration with control systems (AITL-H) |
+| [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | Basics of projection, tolerances, and standards |
+| [`07_measurement_tools/`](./07_measurement_tools/)        | Dimensional evaluation and calibration practice |
+| [`08_production_process/`](./08_production_process/)       | Educational flow from design to production |
+| [`templates/`](./templates/)                   | Parametric modeling templates (Creo-based) |
+| [`assets/`](./assets/)                         | Visual materials, PDFs (no Creo data) |
 
 ---
 
@@ -115,5 +126,3 @@ Feel free to join the conversation!
 👉 [Go to EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions)
 
 教材に関する質問・改善提案・事例共有は [GitHub Discussions](https://github.com/Samizo-AITL/EduMecha/discussions) へどうぞ。
-
----
