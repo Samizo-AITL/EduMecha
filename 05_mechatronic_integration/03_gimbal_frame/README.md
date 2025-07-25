@@ -1,7 +1,7 @@
 # 03_gimbal_frame - 知能制御対象ジンバルの設計教材
 
 ## 概要
-本教材は、AITL-Hアーキテクチャ（FSM×PID×LLM）を制御対象に適用するための2軸ジンバル構造を設計・制御する演習です。
+本教材は、AITL-Hアーキテクチャ（FSM×PID×LLM）を制御対象に適用するための2軸ジンバル構造を設計・制御する演習です。  
 Yaw（外枠）とPitch（内枠）をもつ構造に、IMUを搭載することで、動的安定化や目標追従を実現します。
 
 ## 学習目標
@@ -18,15 +18,23 @@ Yaw（外枠）とPitch（内枠）をもつ構造に、IMUを搭載すること
 | `imu_mount_base.prt` | センサ固定用台座（IMU搭載部） |
 
 ## 制御構成（FSM × PID × LLM）
-- `fsm.yaml`：状態定義（idle → move → error）
-- `pid_params.md`：各軸のPIDゲインと調整法
-- `llm_prompts.md`：ChatGPTによる目標生成・異常対話の支援
+
+- [`control_design/`](control_design/)：制御構成ファイル・プロンプト群
+  - [`llm_prompts.md`](control_design/llm_prompts.md)：ChatGPTによる目標生成・異常対話の支援
+- [`fsm.yaml`](fsm.yaml)：状態定義（idle → move → error）※存在する場合に限る
+- [`pid_params.md`](pid_params.md)：各軸のPIDゲインと調整法（※存在する場合に限る）
 
 ## 実習課題例
+
 1. ジンバル構造をCreoで構成し、2軸回転可能な拘束条件を設定せよ
-2. FSM制御（`fsm.yaml`）を用いて状態遷移シミュレーションを行え
-3. PID調整によりIMU値の安定性を高め、振動抑制制御を設計せよ
-4. LLM（ChatGPT）との連携により、異常ログから目標生成・対話補助を行え
+2. FSM制御（[`fsm.yaml`](fsm.yaml)）を用いて状態遷移シミュレーションを行え
+3. PID調整によりIMU値の安定性を高め、振動抑制制御を設計せよ（[`pid_params.md`](pid_params.md)）
+4. LLM（ChatGPT）との連携により、異常ログから目標生成・対話補助を行え（[`llm_prompts.md`](control_design/llm_prompts.md)）
+
+## 実装補助コード・演習ファイル
+
+- [`imu_response_plot.py`](imu_response_plot.py)：IMUログの可視化スクリプト（Python）
+- [`exercises.md`](exercises.md)：演習課題と実装ガイド
 
 ---
 
