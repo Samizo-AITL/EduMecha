@@ -15,8 +15,24 @@
 > EduMecha is intended as a *curriculum framework and instructional design template* for mechanical design education using parametric 3D CAD.  
 > It is a resource for instructors, curriculum designers, and researchers rather than a ready-to-use exercise set.
 
-> ❗️**本リポジトリには、PTC Creoの演習ファイル（.prt / .asm / .drwなど）は含まれていません。**  
-> EduMechaは、「設計教育構成の雛形」として教材設計者向けに提供されています。
+---
+
+### 📥 How to Obtain or Create Creo Model Files (.prt / .asm)
+
+While no Creo CAD files are included, you can create or obtain your own models using official free offerings from PTC:
+
+- **Creo Parametric Free Trial (14 days)**  
+  A fully functional evaluation version suitable for short-term model development.  
+  → [Try Creo for Free – PTC](https://www.ptc.com/en/try-and-buy/free-trials)
+
+- **Creo University Student Edition (1 year)**  
+  A free license for eligible students and educators, ideal for continuous curriculum development.  
+  → [PTC Education Portal](https://www.ptc.com/en/education/free-software/creo-university-download)
+
+📄 For step-by-step instructions on installing Creo, building `.prt` / `.asm` files, and exporting `.step` or `.pdf` formats for educational use, refer to:  
+[`docs/creo_modeling_guidance.md`](../docs/creo_modeling_guidance.md)
+
+This guidance is designed to support instructors and curriculum developers in customizing their own instructional models compatible with EduMecha.
 
 ---
 
