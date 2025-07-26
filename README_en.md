@@ -1,4 +1,4 @@
-# EduMecha
+# 📘 **EduMecha**
 
 **Parametric Mechanical Design Educational Materials (for Creo users)**  
 **機械設計教育のためのパラメトリック設計教材（Creo対応）**
@@ -9,43 +9,41 @@
 
 ---
 
-## ⚠️ Important Notice
+## ⚠️ **Important Notice**
 
-> ❗️**This repository does not include PTC Creo files (.prt / .asm / .drw) for exercises.**  
-> EduMecha is intended as a *curriculum framework and instructional design template* for mechanical design education using parametric 3D CAD.  
-> It is a resource for instructors, curriculum designers, and researchers rather than a ready-to-use exercise set.
+> ❗️ **This repository does not include PTC Creo files (.prt / .asm / .drw) for exercises.**  
+> **EduMecha** is intended as a *curriculum framework and instructional design template* for **mechanical design education** using **parametric 3D CAD**.  
+> It is a resource for **instructors**, **curriculum designers**, and **researchers** rather than a ready-to-use exercise set.
 
 ---
 
-### 📥 How to Obtain or Create Creo Model Files (.prt / .asm)
+### 📥 **How to Obtain or Create Creo Model Files (.prt / .asm)**
 
-While no Creo CAD files are included, you can create or obtain your own models using official free offerings from PTC:
+While no Creo CAD files are included, you can **create or obtain your own models** using official free offerings from PTC:
 
 - **Creo Parametric Free Trial (14 days)**  
-  A fully functional evaluation version suitable for short-term model development.  
+  A fully functional **evaluation version** suitable for short-term model development.  
   → [Try Creo for Free – PTC](https://www.ptc.com/en/try-and-buy/free-trials)
 
 - **Creo University Student Edition (1 year)**  
-  A free license for eligible students and educators, ideal for continuous curriculum development.  
+  A free license for eligible **students and educators**, ideal for continuous curriculum development.  
   → [PTC Education Portal](https://www.ptc.com/en/education/free-software/creo-university-download)
 
-📄 For step-by-step instructions on installing Creo, building `.prt` / `.asm` files, and exporting `.step` or `.pdf` formats for educational use, refer to:  
+📄 For detailed instructions on installing Creo, building `.prt` / `.asm` files, and exporting `.step` or `.pdf` formats, refer to:  
 [`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
-
-This guidance is designed to support instructors and curriculum developers in customizing their own instructional models compatible with EduMecha.
 
 ---
 
-## 📘 Overview
+## 📘 **Overview**
 
-**EduMecha** is an educational repository designed for structured learning of mechanical design using parametric 3D CAD (primarily PTC Creo Parametric).  
-It enables conceptual and instructional planning for 2D-to-3D modeling, design intent visualization, enclosure design, orthographic drawing, assembly modeling, and CAE integration.
+**EduMecha** is an educational repository for **structured learning of mechanical design** using **parametric 3D CAD** (primarily **PTC Creo Parametric**).  
+It supports planning for **2D-to-3D modeling**, **design intent visualization**, **enclosure design**, **orthographic drawing**, **assembly modeling**, and **CAE integration**.
 
 **EduMecha** は、PTC Creo Parametric を活用し、2D図面から3D設計、筐体構造、アセンブリ、CAE解析までを一貫して学ぶ教育リポジトリです。
 
 ---
 
-## 🔧 Features
+## 🔧 **Features**
 
 - ✏️ **2D → 3D modeling practice**  
 - 📐 **Understanding parametric constraints and design intent**  
@@ -55,7 +53,7 @@ It enables conceptual and instructional planning for 2D-to-3D modeling, design i
 
 ---
 
-## 🧱 Directory Structure
+## 🧱 **Directory Structure**
 
 ```text
 EduMecha/
@@ -72,8 +70,8 @@ EduMecha/
 └── assets/                      
 ```
 
-| Directory | Description |
-|-----------|-------------|
+| **Directory** | **Description** |
+|---------------|------------------|
 | [`00_overview/`](./00_overview/)                 | Repository overview and content map |
 | [`01_parametric_basics/`](./01_parametric_basics/)        | Intro to Creo and basic parametric modeling |
 | [`02_assembly_design/`](./02_assembly_design/)          | Assembly modeling and constraint practices |
@@ -88,57 +86,57 @@ EduMecha/
 
 ---
 
-## 🔗 Related Projects
+## 🔗 **Related Projects**
 
 - [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x)  
-  Educational resources for semiconductor design using sky130
+  *Educational resources for semiconductor design using sky130*
 
 - [**EduController**](https://github.com/Samizo-AITL/EduController)  
-  Control theory & AI-based control with PID, state-space, RL, and LLMs
+  *Control theory & AI-based control (PID, state-space, RL, LLMs)*
 
 - [**AITL-H**](https://github.com/Samizo-AITL/AITL-H)  
-  Hierarchical intelligent control architecture (FSM × PID × LLM)
+  *Hierarchical intelligent control architecture (FSM × PID × LLM)*
 
 - [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT)  
-  Prompt engineering & template framework for structured education with LLMs
+  *Prompt engineering & template framework for structured education*
 
 - [**PTC Creo Parametric (official)**](https://www.ptc.com/en/products/creo)  
-  Professional 3D CAD software for modeling, assembly, and simulation
+  *Professional 3D CAD software for modeling, assembly, and simulation*
 
 ---
 
-## 📜 License
+## 📜 **License**
 
-This repository is released under the MIT License.  
-Reuse for educational and non-commercial purposes is encouraged.
+This repository is released under the **MIT License**.  
+**Reuse for educational and non-commercial purposes is encouraged.**
 
 MITライセンスに基づき公開されています。教育・非営利での活用を歓迎します。
 
 ---
 
-## 👤 Author
+## 👤 **Author**
 
 **Shinichi Samizo**  
 - M.Eng. in Electrical & Electronic Engineering (Shinshu University)  
 - Former Seiko Epson engineer (1997–)
 
-📌 **Expertise**  
-- Semiconductor devices (logic, memory, HV-mixed processes)  
-- Thin-film piezo actuator technology  
-- Productization & configuration of PrecisionCore printheads
+📌 **Expertise**:  
+- **Semiconductor devices** (logic, memory, HV-mixed processes)  
+- **Thin-film piezo actuator technology**  
+- **PrecisionCore printhead development, configuration, and education**
 
-📬 **Contact**  
+📬 **Contact**:  
 - ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
 - 🐦 [@shin3t72 on X](https://x.com/shin3t72)  
 - 💻 [samizo-aitl.github.io](https://samizo-aitl.github.io/)
 
 ---
 
-## 💬 Feedback & Discussion
+## 💬 **Feedback & Discussion**
 
-We welcome your questions, suggestions, and use case sharing in GitHub Discussions.  
+We welcome your **questions**, **suggestions**, and **use case sharing** in GitHub Discussions.  
 Feel free to join the conversation!
 
 👉 [Go to EduMecha Discussions](https://github.com/Samizo-AITL/EduMecha/discussions)
 
-教材に関する質問・改善提案・事例共有は [GitHub Discussions](https://github.com/Samizo-AITL/EduMecha/discussions) へどうぞ。
+---
