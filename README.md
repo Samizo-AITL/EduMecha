@@ -1,4 +1,4 @@
-# EduMecha
+# 📚 **EduMecha**
 
 **機械設計教育のためのパラメトリック設計教材（Creo対応）**  
 **Parametric Mechanical Design Educational Materials (for Creo users)**
@@ -9,49 +9,54 @@
 
 ---
 
-## ⚠️ この教材についての重要な注意事項 | Important Notice
+## ⚠️ **この教材についての重要な注意事項 | Important Notice**
 
 > ❗️**本リポジトリには、PTC Creo 用の演習ファイル（.prt / .asm / .drw などのCADデータ）は含まれていません。**  
-> EduMecha は、**機械設計教育における「教材構成・設計意図・カリキュラム構造」を共有するためのテンプレート教材／構想仕様書**として公開されています。  
+> **EduMecha** は、**機械設計教育における「教材構成・設計意図・カリキュラム構造」**を共有するための**テンプレート教材／構想仕様書**として公開されています。  
 > 実ファイルを含む演習教材ではなく、**教育設計者・講師・教材開発者向けのリファレンス資料**としてご活用ください。
 
 > ❗️**This repository does not include exercise files such as .prt, .asm, or .drw for PTC Creo.**  
-> EduMecha is intended as a *curriculum framework and instructional design specification* for parametric mechanical design education.  
-> It serves as a reference for educators and instructional designers, rather than a ready-to-use student exercise set.
+> **EduMecha** is intended as a **curriculum framework and instructional design specification** for parametric mechanical design education.  
+> It serves as a **reference for educators and instructional designers**, rather than a **ready-to-use student exercise set**.
 
 ---
 
-### 📥 モデルデータ（.prt / .asm）入手・作成方法のご案内 | How to Obtain or Create Model Files
+### 📥 **モデルデータ（.prt / .asm）入手・作成方法のご案内 | How to Obtain or Create Model Files**
 
 PTC社が提供する **無料プラン**（以下参照）を利用することで、演習用の `.prt` や `.asm` ファイルを自身で作成・取得することができます。
 
 - **Creo Parametric Free Trial（14日間）**：  
-  商用CADと同等機能を備えた評価版。短期間で教材モデルを構築する際に適しています。  
+  商用CADと同等機能を備えた評価版。**短期間で教材モデルを構築**する際に適しています。  
   [Try Creo Free Trial – PTC公式サイト](https://www.ptc.com/en/try-and-buy/free-trials)
 
 - **Creo University Student Version（1年間）**：  
-  教員・学生向けの教育用途限定ライセンス。継続的な教材開発・学生教育に適しています。  
+  教員・学生向けの**教育用途限定ライセンス**。**継続的な教材開発・学生教育**に適しています。  
   [Free Creo for Students and Educators](https://www.ptc.com/en/education/free-software/creo-university-download)
 
-**詳細な作成・保存・エクスポート手順については、以下の補助ガイドをご覧ください：**  
-📄 [`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
+📄 **詳細な作成・保存・エクスポート手順については以下をご覧ください：**  
+[`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
 
-> By using PTC's official free versions of Creo Parametric (trial or university edition), you can create `.prt`, `.asm`, and `.drw` files yourself for use in exercises.  
+> By using **PTC's official free versions** of Creo Parametric (trial or university edition),  
+> you can create `.prt`, `.asm`, and `.drw` files yourself for use in exercises.  
 > See the companion guide here: [`docs/creo_modeling_guidance.md`](./docs/creo_modeling_guidance.md)
 
 ---
 
-## 📘 概要 | Overview
+## 📘 **概要 | Overview**
 
-**EduMecha** は、パラメトリック3D CAD（主に PTC Creo Parametric）を活用し、機械設計の基礎から応用までを体系的に学ぶための教育用教材構成テンプレートです。  
-2D図面からの3Dモデリング、設計意図の可視化、筐体設計、三角法、アセンブリ設計、CAEとの連携など、**実践的な学習構造を設計者の視点で可視化**しています。
+**EduMecha** は、**パラメトリック3D CAD（PTC Creo Parametric）**を活用し、  
+**機械設計の基礎から応用までを体系的に学ぶ教育教材構成テンプレート**です。  
+**2D図面からの3Dモデリング**、**設計意図の可視化**、**筐体設計**、**三角法**、**アセンブリ設計**、**CAEとの連携**など、  
+**実践的な学習構造を設計者の視点で可視化**しています。
 
-**EduMecha** is an educational repository designed to outline structured learning paths for mechanical design using parametric 3D CAD (primarily PTC Creo Parametric).  
-It provides a framework for 2D-to-3D modeling, design intent visualization, enclosure modeling, third-angle projection, assembly design, and CAE integration.
+**EduMecha** is an educational repository designed to outline **structured learning paths for mechanical design**  
+using **parametric 3D CAD** (primarily **PTC Creo Parametric**).  
+It provides a framework for **2D-to-3D modeling**, **design intent visualization**, **enclosure modeling**,  
+**third-angle projection**, **assembly design**, and **CAE integration**.
 
 ---
 
-## 🔧 特徴 | Features
+## 🔧 **特徴 | Features**
 
 - ✏️ **三面図からの3Dモデリング演習案**  
   *2D → 3D modeling exercise structures*
@@ -70,7 +75,7 @@ It provides a framework for 2D-to-3D modeling, design intent visualization, encl
 
 ---
 
-## 🧱 教材構成 | Directory Structure
+## 🧱 **教材構成 | Directory Structure**
 
 ```text
 EduMecha/
@@ -87,8 +92,8 @@ EduMecha/
 └── assets/                      
 ```
 
-| ディレクトリ | 内容 |
-|--------------|------|
+| **ディレクトリ** | **内容** |
+|------------------|----------|
 | [`00_overview/`](./00_overview/)                 | 教材概要とマップ |
 | [`01_parametric_basics/`](./01_parametric_basics/)        | Creo操作入門と設計演習構成 |
 | [`02_assembly_design/`](./02_assembly_design/)          | 組立設計の学習構成テンプレート |
@@ -103,7 +108,7 @@ EduMecha/
 
 ---
 
-## 🔗 関連プロジェクト | Related Projects
+## 🔗 **関連プロジェクト | Related Projects**
 
 - [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x) – 半導体設計教材（sky130）
 - [**EduController**](https://github.com/Samizo-AITL/EduController) – 制御理論／AI制御教材
@@ -113,23 +118,24 @@ EduMecha/
 
 ---
 
-## 📜 ライセンス | License
+## 📜 **ライセンス | License**
 
-MIT License に基づき公開しています。非営利・教育目的での再利用を歓迎します。  
-This repository is released under the MIT License. Educational and non-commercial reuse is welcome.
+This project is released under the **MIT License**.  
+**Educational and non-commercial reuse is welcome.**  
+MIT License に基づき公開しています。**非営利・教育目的での再利用を歓迎**します。
 
 ---
 
-## 👤 執筆者情報 | Author
+## 👤 **執筆者情報 | Author**
 
 **三溝 真一（Shinichi Samizo）**  
-- 信州大学大学院 電気電子工学 修了  
-- 元 セイコーエプソン株式会社 技術者（1997年〜）
+- 信州大学大学院 **電気電子工学 修了**  
+- 元 **セイコーエプソン株式会社 技術者（1997年〜）**
 
 📌 **経験領域**  
-- 半導体デバイス／MEMS／アクチュエータ設計  
-- インクジェット製品設計・CAE構成管理  
-- 教育コンテンツ設計とAI統合支援
+- **半導体デバイス／MEMS／アクチュエータ設計**  
+- **インクジェット製品設計・CAE構成管理**  
+- **教育コンテンツ設計とAI統合支援**
 
 📬 **連絡先**  
 - ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
@@ -138,9 +144,12 @@ This repository is released under the MIT License. Educational and non-commercia
 
 ---
 
-## 💬 フィードバック・質問 | Feedback & Discussion
+## 💬 **フィードバック・質問 | Feedback & Discussion**
 
-教材に関するご質問・改善提案・派生教材の展開などは GitHub Discussions にて歓迎します。  
-教育関係者・研究者・技術者の皆様からのご参加をお待ちしています。
+教材に関するご質問・改善提案・派生教材の展開などは  
+**GitHub Discussions** にて歓迎します。  
+**教育関係者・研究者・技術者の皆様からのご参加をお待ちしています。**
 
 👉 [EduMecha Discussions ページへ移動](https://github.com/Samizo-AITL/EduMecha/discussions)
+
+---
