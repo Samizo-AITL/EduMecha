@@ -88,6 +88,7 @@ EduMecha/
 ├── 06_drafting_fundamentals/    
 ├── 07_measurement_tools/        
 ├── 08_production_process/       
+├── 09_geometric_tolerancing/    ←★ 追加
 ├── templates/                   
 └── assets/                      
 ```
@@ -103,6 +104,7 @@ EduMecha/
 | [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | 製図基本要素の整理 |
 | [`07_measurement_tools/`](./07_measurement_tools/)        | 寸法評価・トレーサビリティ演習構成 |
 | [`08_production_process/`](./08_production_process/)       | 製造プロセス教育の構成案 |
+| [`09_geometric_tolerancing/`](./09_geometric_tolerancing/) | 幾何公差（GD&T）の記法・演習・検査の総合教材 |
 | [`templates/`](./templates/)                   | テンプレート仕様設計（Creoを前提） |
 | [`assets/`](./assets/)                         | 教材用画像・参考図面（演習データは含まず） |
 
