@@ -1,4 +1,4 @@
-# 📘 **EduMecha**
+# ⚙️ **EduMecha**
 
 **Parametric Mechanical Design Educational Materials (for Creo users)**  
 **機械設計教育のためのパラメトリック設計教材（Creo対応）**
