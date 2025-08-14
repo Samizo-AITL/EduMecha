@@ -3,8 +3,7 @@
 **Parametric Mechanical Design Educational Materials (for Creo users)**  
 **機械設計教育のためのパラメトリック設計教材（Creo対応）**
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 
 ---
 
