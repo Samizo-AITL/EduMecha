@@ -85,17 +85,17 @@ EduMecha/
 
 | **Directory** | **Description** |
 |---------------|------------------|
-| [`00_overview/`](./00_overview/)                 | Repository overview and content map |
-| [`01_parametric_basics/`](./01_parametric_basics/)        | Intro to Creo and basic parametric modeling |
-| [`02_assembly_design/`](./02_assembly_design/)          | Assembly modeling and constraint practices |
-| [`03_drawing_skills/`](./03_drawing_skills/)           | Orthographic projection and drawing creation |
-| [`04_legacy2parametric/`](./04_legacy2parametric/)        | Modeling from hand-drawn sketches |
-| [`05_mechatronic_integration/`](./05_mechatronic_integration/)  | Integration with control systems (AITL-H) |
-| [`06_drafting_fundamentals/`](./06_drafting_fundamentals/)    | Basics of projection, tolerances, and standards |
-| [`07_measurement_tools/`](./07_measurement_tools/)        | Dimensional evaluation and calibration practice |
-| [`08_production_process/`](./08_production_process/)       | Educational flow from design to production |
-| [`templates/`](./templates/)                   | Parametric modeling templates (Creo-based) |
-| [`assets/`](./assets/)                         | Visual materials, PDFs (no Creo data) |
+| [`00_overview/`](../00_overview/)                 | Repository overview and content map |
+| [`01_parametric_basics/`](../01_parametric_basics/)        | Intro to Creo and basic parametric modeling |
+| [`02_assembly_design/`](../02_assembly_design/)          | Assembly modeling and constraint practices |
+| [`03_drawing_skills/`](../03_drawing_skills/)           | Orthographic projection and drawing creation |
+| [`04_legacy2parametric/`](../04_legacy2parametric/)        | Modeling from hand-drawn sketches |
+| [`05_mechatronic_integration/`](../05_mechatronic_integration/)  | Integration with control systems (AITL-H) |
+| [`06_drafting_fundamentals/`](../06_drafting_fundamentals/)    | Basics of projection, tolerances, and standards |
+| [`07_measurement_tools/`](../07_measurement_tools/)        | Dimensional evaluation and calibration practice |
+| [`08_production_process/`](../08_production_process/)       | Educational flow from design to production |
+| [`templates/`](../templates/)                   | Parametric modeling templates (Creo-based) |
+| [`assets/`](../assets/)                         | Visual materials, PDFs (no Creo data) |
 
 ---
 
