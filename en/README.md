@@ -69,7 +69,7 @@ It supports planning for **2D-to-3D modeling**, **design intent visualization**,
 ## 🧱 **Directory Structure**
 
 ```text
-en/
+EduMecha/
 ├── 00_overview/                 
 ├── 01_parametric_basics/        
 ├── 02_assembly_design/          
