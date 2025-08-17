@@ -128,13 +128,13 @@ EduMecha/
 
 | プロジェクト | 内容 | リンク |
 |--------------|------|--------|
-| **Edusemi** | 半導体設計教材（sky130） | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
-| **EduController** | 制御理論／AI制御教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/) [![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
-| **AITL-H** | 知能制御統合アーキテクチャ | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/) [![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
-| **SamizoGPT** | 教材構成・プロンプト支援 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/) [![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
-| **Inkjet** | インクジェット技術アーキテクチャ教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/) [![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
+| **Edusemi-v4x** | 半導体プロダクト開発のための基礎教育教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
+| **EduController** | 制御理論／AI制御教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
+| **AITL-H** | 知能制御統合アーキテクチャ | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
+| **SamizoGPT** | 教材構成・プロンプト支援 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
+| **Inkjet** | インクジェット技術アーキテクチャ教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
 | **PTC Creo Parametric（公式）** | 商用3D CAD | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
-  
+
 ---
 
 ## 👤 **執筆者情報 | Author**
