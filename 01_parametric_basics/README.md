@@ -16,13 +16,13 @@ title:  01_parametric_basics
 
 ## 📂 **フォルダ構成 | Folder Structure**
 
-| 📁 **フォルダ / Folder** | 📘 **内容（日本語） / Description (English)** |
-|---------------------------|----------------------------------------------|
-| **01_block_with_holes** | シンプルな直方体＋穴加工の基本演習<br>Basic block with holes |
-| **02_l_bracket_design** | 寸法拘束と押し出しのL字ブラケット設計<br>L-bracket design with constraints & extrusion |
-| **03_shaft_mount_intro** | 軸受け構造の基本モデル（軸＋固定面）<br>Intro to shaft mount structure (shaft + base) |
-| **04_plate_with_pocket** | ポケット加工・断面設計の基礎<br>Plate with pocket machining & sectional design |
-| **05_mechatronic_integration** | AITL-H制御モジュールとの連携モデル演習（入門）<br>Basic model for integration with AITL-H control module |
+| 📁 **フォルダ / Folder** | 📘 **内容（日本語） / Description (English)** | 🔗 **リンク / Links** |
+|---------------------------|----------------------------------------------|-------------------------|
+| **01_block_with_holes** | シンプルな直方体＋穴加工の基本演習<br>Basic block with holes | [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics/01_block_with_holes) |
+| **02_l_bracket_design** | 寸法拘束と押し出しのL字ブラケット設計<br>L-bracket design with constraints & extrusion | [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics/02_l_bracket_design) |
+| **03_shaft_mount_intro** | 軸受け構造の基本モデル（軸＋固定面）<br>Intro to shaft mount structure (shaft + base) | [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics/03_shaft_mount_intro) |
+| **04_plate_with_pocket** | ポケット加工・断面設計の基礎<br>Plate with pocket machining & sectional design | [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics/04_plate_with_pocket) |
+| **05_mechatronic_integration** | AITL-H制御モジュールとの連携モデル演習（入門）<br>Basic model for integration with AITL-H control module | [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics/05_mechatronic_integration) |
 
 ---
 
