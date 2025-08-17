@@ -36,16 +36,12 @@ It provides a structured learning path from basic modeling and assembly to techn
 
 ## 🧭 学習フロー | Learning Flow
 
-```plaintext
-01: Creo入門（基本操作・スケッチ・押し出し）
- ↓
-02: アセンブリ設計（拘束・干渉・接続）
- ↓
-03: 図面生成（三角法・寸法記入・製図規格）
- ↓
-04: 図面からの3D再構築（逆設計・意図推定）
- ↓
-05: 制御対象の筐体設計（FSM/PID構造と接続）
+```mermaid
+flowchart TD
+    A["01: Creo入門<br>(基本操作・スケッチ・押し出し)"] --> B["02: アセンブリ設計<br>(拘束・干渉・接続)"]
+    B --> C["03: 図面生成<br>(三角法・寸法記入・製図規格)"]
+    C --> D["04: 図面からの3D再構築<br>(逆設計・意図推定)"]
+    D --> E["05: 制御対象の筐体設計<br>(FSM/PID構造と接続)"]
 ```
 
 ---
