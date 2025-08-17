@@ -1,0 +1,6 @@
+title: EduMecha
+description: Mechanical design learning resources
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
