@@ -1,3 +1,10 @@
+---
+layout: default
+title:  EduMecha 概要 | EduMecha Overview
+---
+
+---
+
 # EduMecha 概要 | EduMecha Overview
 
 **EduMecha** は、PTC Creo Parametric を活用した、機械設計教育のためのオリジナル教材群です。  
