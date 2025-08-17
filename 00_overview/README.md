@@ -38,10 +38,10 @@ It provides a structured learning path from basic modeling and assembly to techn
 
 ```mermaid
 flowchart TD
-    A["01: Creo入門<br>(基本操作・スケッチ・押し出し)"] --> B["02: アセンブリ設計<br>(拘束・干渉・接続)"]
-    B --> C["03: 図面生成<br>(三角法・寸法記入・製図規格)"]
-    C --> D["04: 図面からの3D再構築<br>(逆設計・意図推定)"]
-    D --> E["05: 制御対象の筐体設計<br>(FSM/PID構造と接続)"]
+    A["01: Creo入門<br>(基本操作・スケッチ・押し出し)<br>Intro to Creo<br>(Basics, Sketch, Extrude)"] --> B["02: アセンブリ設計<br>(拘束・干渉・接続)<br>Assembly Design<br>(Constraints, Interference, Connections)"]
+    B --> C["03: 図面生成<br>(三角法・寸法記入・製図規格)<br>Drawing Generation<br>(Projections, Dimensioning, Standards)"]
+    C --> D["04: 図面からの3D再構築<br>(逆設計・意図推定)<br>3D Reconstruction from Drawings<br>(Reverse Engineering, Design Intent)"]
+    D --> E["05: 制御対象の筐体設計<br>(FSM/PID構造と接続)<br>Enclosure Design for Control Systems<br>(FSM/PID Integration)"]
 ```
 
 ---
@@ -49,22 +49,29 @@ flowchart TD
 ## 🎯 主な特徴 | Key Features
 
 - ✅ Creoによる **設計 → 組立 → 製図 → PoC接続** までを一貫して学習  
+  ✅ Integrated workflow in Creo: **Modeling → Assembly → Drawing → PoC connection**  
+
 - ✅ 制御対象との **統合筐体設計**（FSM/PID連携）を演習化  
+  ✅ Practical training with **control system integration** (FSM/PID-based)  
+
 - ✅ **図面再構築（逆設計）** による図面理解力・空間認識力の育成  
-- ✅ EduController・AITL-H・Edusemi との連携による **複合技術統合型教材**
+  ✅ Develop **drawing interpretation & spatial recognition** through reverse engineering  
+
+- ✅ EduController・AITL-H・Edusemi との連携による **複合技術統合型教材**  
+  ✅ **Cross-disciplinary integration** with EduController, AITL-H, and Edusemi  
 
 ---
 
 ## 🔗 関連プロジェクト | Related Projects
 
-| プロジェクト | 内容 | リンク |
-|--------------|------|--------|
-| **Edusemi-v4x** | 半導体プロダクト開発のための基礎教育教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
-| **EduController** | 制御理論／AI制御教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
-| **AITL-H** | 知能制御統合アーキテクチャ | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
-| **SamizoGPT** | 教材構成・プロンプト支援 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
-| **Inkjet** | インクジェット技術アーキテクチャ教材 | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
-| **PTC Creo Parametric（公式）** | 商用3D CAD | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
+| プロジェクト | 内容 (JP) | Description (EN) | リンク |
+|--------------|-----------|------------------|--------|
+| **Edusemi-v4x** | 半導体プロダクト開発のための基礎教育教材 | Semiconductor education (sky130 PDK) | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
+| **EduController** | 制御理論／AI制御教材 | Control theory & AI-based control | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
+| **AITL-H** | 知能制御統合アーキテクチャ | Hybrid intelligent control (FSM × PID × LLM) | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
+| **SamizoGPT** | 教材構成・プロンプト支援 | Prompt engineering & teaching support | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
+| **Inkjet** | インクジェット技術アーキテクチャ教材 | Inkjet technology architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
+| **PTC Creo Parametric（公式）** | 商用3D CAD | Commercial 3D CAD software | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
 
 ---
 
