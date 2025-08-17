@@ -46,8 +46,6 @@ It provides a structured learning path from basic modeling and assembly to techn
 04: 図面からの3D再構築（逆設計・意図推定）
  ↓
 05: 制御対象の筐体設計（FSM/PID構造と接続）
- ↓
-06: 応用設計（インクジェット構造などの産業設計例）
 ```
 
 ---
