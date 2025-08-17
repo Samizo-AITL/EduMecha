@@ -1,64 +1,82 @@
-# 🧰 EduMecha Creo テンプレート集
-
-本フォルダには、Creo による設計学習用テンプレートモデル（`.prt` / `.asm`）を収録しています。
-
-- ✅ データム・拘束・パラメータを定義済み  
-- ✅ 各テンプレートには設計意図と使用方法が記された仕様書付き  
-- ✅ AITL教材との連動や PoC 実装にも展開可能  
+---
+layout: default
+title:  Creo Macro Collection | Creo マクロ集
+---
 
 ---
 
-## 📌 利用目的
+# 🧰 **Creo Macro Collection | Creo マクロ集**
 
-- データム・寸法拘束・パラメータを事前定義した「設計の出発点」を提供  
-- 初学者がすぐに操作・編集に集中できるようにする  
-- 教材間で一貫性あるモデル展開を実現  
-- 統合設計（AITL-H 等）への PoC 連携を効率化  
+本フォルダには、**Creo Parametric** による設計作業を効率化する **マクロスクリプト** を収録しています。  
+This directory provides **macro scripts for Creo Parametric** that streamline design workflows.  
 
----
-
-## 📂 テンプレート一覧
-
-| ファイル名 | 種別 | 内容概要 | 連携教材 | 仕様書 |
-|------------|------|----------|-----------|--------|
-| [`base_plate_template.prt`](./base_plate_template.prt) | Part | 平面ベース＋中心穴付き | [`01_parametric_basics`](../01_parametric_basics/) | [`📄`](./template_base_plate_spec.md) |
-| [`sensor_mount_template.prt`](./sensor_mount_template.prt) | Part | センサ固定用の穴付き円形板 | [`05_mechatronic_integration`](../05_mechatronic_integration/) | [`📄`](./template_sensor_mount_spec.md) |
-| [`control_case_template.asm`](./control_case_template.asm) | Asm  | ベース筐体＋カバー構成モデル | [`05_mechatronic_integration`](../05_mechatronic_integration/) | [`📄`](./template_control_case_spec.md) |
+- ✅ **繰り返し操作の自動化**（寸法変更・エクスポート等）  
+- ✅ **教材内ワークフローの効率化**  
+- ✅ **API / Toolkit 拡張を見据えた実装**  
 
 ---
 
-## 🛠️ 使用方法
+## 📌 **利用目的 | Purpose**
 
-1. 本テンプレートを **複製（別名保存）** して使用します。  
-2. 各モデルには、明示的なパラメータ名（例：`plate_thickness`、`hole_diameter`）が設定されています。  
-3. 教材内の演習では、テンプレートをベースに派生モデルを作成してください。  
-
----
-
-## 🧩 命名規則（推奨）
-
-| 種類 | 接尾語 | 命名例 |
-|------|--------|--------|
-| テンプレートモデル | `_template` | `sensor_mount_template.prt` |
-| 派生演習モデル | `_exerciseX` | `sensor_mount_exercise1.prt` |
-| 統合・PoCモデル | `_PoC` | `casing_sensor_mount_PoC.asm` |
+- 教材演習における繰り返し操作を削減  
+  *Reduce repetitive tasks in exercises*  
+- 図面出力・形式変換などのルーチン処理を自動化  
+  *Automate routine tasks such as drawing export & format conversion*  
+- 学習者が「設計意図」に集中できる環境を提供  
+  *Allow learners to focus on **design intent***  
+- 統合設計・PoC（AITL-H 等）との連動効率化  
+  *Enable smooth integration with **AITL-H** and PoC workflows*  
 
 ---
 
-## 🔄 今後の拡張予定
+## 📂 **マクロ一覧 | Macro List**
 
-- ジグ・冶具・測定用ブロックのテンプレート追加  
-- 製図教材（[`06_drafting_fundamentals`](../06_drafting_fundamentals/)）との連携（断面・公差定義モデル）  
-- Creo API / マクロと連携したテンプレート展開機能  
-
----
-
-## 📮 お問い合わせ・貢献
-
-テンプレートの改善提案・追加希望・修正依頼などは、EduMecha リポジトリの  
-[📬 Issue ページ](https://github.com/your-org/EduMecha/issues) にてご連絡ください。  
+| ファイル名 / Filename | 内容概要 / Description | 連携教材 / Linked Module | 仕様書 / Spec |
+|----------------------|------------------------|--------------------------|---------------|
+| [`auto_export_pdf.mac`](./auto_export_pdf.mac) | 図面を一括 PDF 出力<br>Batch export drawings to PDF | [`03_drawing_skills`](../03_drawing_skills/) | [`📄`](./macro_auto_export_pdf_spec.md) |
+| [`param_update_batch.mac`](./param_update_batch.mac) | パラメータ一括更新<br>Batch parameter updates | [`01_parametric_basics`](../01_parametric_basics/) | [`📄`](./macro_param_update_spec.md) |
+| [`asm_bom_generator.mac`](./asm_bom_generator.mac) | アセンブリから BOM 生成<br>Generate BOM from assemblies | [`08_production_process`](../08_production_process/) | [`📄`](./macro_bom_generator_spec.md) |
 
 ---
 
-© 2025 EduMecha Project / 三溝真一（統合設計者）  
-本テンプレート群は教育・研究目的に限り、自由に使用・改変・再配布いただけます。
+## 🛠️ **使用方法 | Usage**
+
+1. Creo の **Mapkeys** に登録して実行  
+   *Register macros in Creo Mapkeys and execute*  
+2. 各マクロには、操作手順・必要入力が仕様書に記載  
+   *Each macro includes a spec with workflow and required inputs*  
+3. 実習教材では、**手動操作との比較学習**を推奨  
+   *Compare with manual operations for learning purposes*  
+
+---
+
+## 🧩 **命名規則 | Naming Rules**
+
+| 種類 / Type | 接尾語 / Suffix | 命名例 / Example |
+|-------------|-----------------|------------------|
+| 自動化マクロ / Macro Script | `_mac` | `param_update_batch.mac` |
+| 仕様書 / Spec | `_spec.md` | `macro_bom_generator_spec.md` |
+
+---
+
+## 🔄 **拡張予定 | Future Extensions**
+
+- Creo **API（Toolkit, J-Link）** を利用した拡張サンプル  
+- Excel 連携による寸法リスト読込・BOM 出力  
+- [`07_measurement_tools`](../07_measurement_tools/) 等との連携マクロ追加  
+
+---
+
+## 📮 **お問い合わせ・貢献 | Feedback & Contribution**
+
+マクロの改善提案・追加希望・修正依頼は、EduMecha リポジトリの  
+[📬 Issue ページ](https://github.com/your-org/EduMecha/issues) までご連絡ください。  
+
+Please submit suggestions, improvements, or bug reports via the  
+[📬 Issues page](https://github.com/your-org/EduMecha/issues).  
+
+---
+
+© 2025 EduMecha Project / **三溝真一（統合設計者 | Chief Integrator）**  
+本マクロ群は **教育・研究目的に限り**、自由に使用・改変・再配布いただけます。  
+This collection is released for **educational and research use only**, with permission to modify and redistribute.  
