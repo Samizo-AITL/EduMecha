@@ -126,12 +126,29 @@ EduMecha/
 
 ## 🔗 **関連プロジェクト | Related Projects**
 
-- [**Edusemi**](https://github.com/Samizo-AITL/Edusemi-v4x) – 半導体設計教材（sky130）
-- [**EduController**](https://github.com/Samizo-AITL/EduController) – 制御理論／AI制御教材
-- [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) – 知能制御統合アーキテクチャ
-- [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT) – 教材構成・プロンプト支援
-- [**PTC Creo Parametric**（公式）](https://www.ptc.com/en/products/creo)
+- **Edusemi** – 半導体設計教材（sky130）  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)  
+  [![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x)
 
+- **EduController** – 制御理論／AI制御教材  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)  
+  [![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController)
+
+- **AITL-H** – 知能制御統合アーキテクチャ  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)  
+  [![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H)
+
+- **SamizoGPT** – 教材構成・プロンプト支援  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)  
+  [![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT)
+
+- **Inkjet** – インクジェット技術アーキテクチャ教材  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)  
+  [![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet)
+
+- **PTC Creo Parametric（公式）**  
+  [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo)
+  
 ---
 
 ## 👤 **執筆者情報 | Author**
