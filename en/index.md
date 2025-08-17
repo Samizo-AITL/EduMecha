@@ -65,3 +65,63 @@ It supports planning for **2D-to-3D modeling**, **design intent visualization**,
 - 📊 **Integration with CAE tools like Creo Simulate (stress, COG, etc.)**
 
 ---
+
+## 🧱 **Directory Structure**
+
+| 📂 Directory | 📘 Description | 🔗 Links |
+|--------------|----------------|----------|
+| **00_overview** | Overview & Map | [![🌐 View Site](https://img.shields.io/badge/View%20Site-00__overview-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/00_overview/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-00__overview-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/00_overview) |
+| **01_parametric_basics** | Intro to Creo & Parametric Basics | [![🌐 View Site](https://img.shields.io/badge/View%20Site-01__basics-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/01_parametric_basics/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-01__basics-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/01_parametric_basics) |
+| **02_assembly_design** | Assembly Design Templates | [![🌐 View Site](https://img.shields.io/badge/View%20Site-02__assembly-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/02_assembly_design/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-02__assembly-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/02_assembly_design) |
+| **03_drawing_skills** | Drawing & Projection Skills | [![🌐 View Site](https://img.shields.io/badge/View%20Site-03__drawing-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/03_drawing_skills/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-03__drawing-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/03_drawing_skills) |
+| **04_legacy2parametric** | Legacy 2D → Parametric 3D | [![🌐 View Site](https://img.shields.io/badge/View%20Site-04__legacy-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/04_legacy2parametric/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-04__legacy-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/04_legacy2parametric) |
+| **05_mechatronic_integration** | Mechatronic Integration | [![🌐 View Site](https://img.shields.io/badge/View%20Site-05__mechatronics-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/05_mechatronic_integration/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-05__mechatronics-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/05_mechatronic_integration) |
+| **06_drafting_fundamentals** | Drafting Fundamentals | [![🌐 View Site](https://img.shields.io/badge/View%20Site-06__drafting-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/06_drafting_fundamentals/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-06__drafting-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/06_drafting_fundamentals) |
+| **07_measurement_tools** | Measurement Tools & Traceability | [![🌐 View Site](https://img.shields.io/badge/View%20Site-07__measurement-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/07_measurement_tools/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-07__measurement-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/07_measurement_tools) |
+| **08_production_process** | Production Process | [![🌐 View Site](https://img.shields.io/badge/View%20Site-08__process-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-08__process-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process) |
+| **09_geometric_tolerancing** | Geometric Dimensioning & Tolerancing (GD&T) | [![🌐 View Site](https://img.shields.io/badge/View%20Site-09__GD%26T-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/09_geometric_tolerancing/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-09__GD%26T-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/09_geometric_tolerancing) |
+| **templates** | Template Specifications | [![🌐 View Site](https://img.shields.io/badge/View%20Site-templates-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/templates/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-templates-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/templates) |
+| **assets** | Assets & Reference Figures | [![🌐 View Site](https://img.shields.io/badge/View%20Site-assets-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/assets/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-assets-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/assets) |
+
+---
+
+## 🔗 **Related Projects**
+
+| 📌 Project | 📘 Description | 🔗 Links |
+|------------|----------------|----------|
+| 🎓 **Edusemi-v4x** | Fundamentals of Semiconductor Product Development | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
+| 🎛 **EduController** | Control Theory & AI Control | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
+| 🤖 **AITL-H** | Intelligent Control Integration Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
+| 🧠 **SamizoGPT** | Educational Content & Prompt Support | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
+| 🖨️ **Inkjet** | Inkjet Technology Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
+| ⚙️ **PTC Creo Parametric (Official)** | Commercial 3D CAD | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
+
+---
+
+## 👤 **Author**
+
+| 📌 Item | Details |
+|--------|---------|
+| **Name** | Shinichi Samizo |
+| **Education** | M.Eng., Electrical & Electronic Engineering, Shinshu University |
+| **Career** | Former Engineer, Seiko Epson Corp. (1997–) |
+| **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Inkjet thin-film piezo actuators<br>PrecisionCore printhead development, BOM management, ISO training |
+| **Contact** | ✉️ [Email](mailto:shin3t72@gmail.com) / 🐦 [X](https://x.com/shin3t72) / 💻 [GitHub](https://samizo-aitl.github.io/) |
+
+---
+
+## 📄 **License**
+
+Licensed under **[MIT License](https://opensource.org/licenses/MIT)**.  
+Free to **reuse, modify, and fork** for educational and non-profit purposes.
+
+> Opinions and descriptions are those of the author.
+
+---
+
+## 💬 **Feedback**
+
+> Please propose improvements or start discussions via GitHub Discussions.  
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/EduMecha/discussions)
+
