@@ -1,3 +1,10 @@
+---
+layout: default
+title:  02_assembly_design - アセンブリ設計演習
+---
+
+---
+
 # 02_assembly_design - アセンブリ設計演習
 
 ## 概要
