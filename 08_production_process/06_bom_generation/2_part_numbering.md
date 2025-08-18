@@ -2,6 +2,8 @@
 title: "Part Numbering System"
 ---
 
+---
+
 # 🔢 部品コード体系 | Part Numbering System  
 **Part Numbering Rules**
 
