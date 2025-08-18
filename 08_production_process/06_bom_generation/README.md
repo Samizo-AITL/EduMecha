@@ -127,7 +127,17 @@ flowchart TD
 ├── attribute_definitions/  
 └── bom_checklist/          
 ```
+本ディレクトリは、部品表（BOM）の作成と設計情報の構造化を扱います。  
+各章に分割して詳細を記載しています。
 
+## 📂 構成
+- [1_overview.md](1_overview.md) – 概要・学習目標
+- [2_part_numbering.md](2_part_numbering.md) – 部品コード体系
+- [3_attributes.md](3_attributes.md) – 属性（図面・環境・コスト・輸出）
+- [4_rollup_management.md](4_rollup_management.md) – 積み上げ管理
+- [5_rules.md](5_rules.md) – 運用ルール
+- [6_exercises.md](6_exercises.md) – 演習課題
+  
 ---
 
 ## 💬 コメント・共有 | Feedback
