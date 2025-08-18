@@ -2,75 +2,78 @@
 title: "Part Numbering System"
 ---
 
-# 🔢 部品コード体系 | Part Numbering System
+# 🔢 部品コード体系 | Part Numbering System  
+**Part Numbering Rules**
 
-## 基本構造
+---
+
+## 🏗 基本構造 | Basic Structure
 
 ```
 ABCDEF-XX
 ```
 
-- **ABCDEF（6桁）**：部品アイデンティティ  
-  → 「何の部品か」を一意に示す識別子。  
-- **-XX（枝番）**：条件差・改訂履歴  
-  → 製造条件やバージョン、暫定対応などを区別するためのサフィックス。  
+- **ABCDEF（6桁 / 6 digits）**  
+  → 部品アイデンティティ / **Part identity**  
+  → 「何の部品か」を一意に示す / Defines *what the part is*.  
+
+- **-XX（枝番 / Suffix）**  
+  → 条件差・改訂履歴 / **Version or condition difference**  
+  → 製造条件やバージョン管理に使用 / Tracks revisions, molds, factories.  
 
 ---
 
-## 第1桁カテゴリ
+## 📊 第1桁カテゴリ | 1st Digit Categories
 
-| 1桁目 | 意味       | 例 |
-|-------|------------|----|
-| 1     | 機械部品   | ネジ、ギア、筐体 |
-| 2     | 電子部品   | 抵抗、コンデンサ、IC |
-| 6     | 材料       | 樹脂ペレット、接着剤、溶剤 |
-| 9     | 治具・工具 | 組立治具、測定治具 |
+| **1桁目 / Digit** | **意味 / Meaning** | **例 / Examples** |
+|------------------|--------------------|------------------|
+| **1** | 機械部品 / Mechanical Parts | ネジ, ギア, 筐体 / Screws, gears, housings |
+| **2** | 電子部品 / Electronic Parts | 抵抗, IC, コンデンサ / Resistors, ICs, capacitors |
+| **6** | 材料 / Materials | 樹脂, 接着剤, 溶剤 / Resin, adhesives, solvents |
+| **9** | 治具・工具 / Jigs & Tools | 組立治具, 測定治具 / Assembly & measurement jigs |
 
-- 1桁目が「カテゴリ」を定めることで、検索・分類・管理が容易になる。  
-- 特に **「6番（材料）」は規制対応が必須**：SDSや消防法情報と直結。  
-
----
-
-## 枝番ルール
-
-- **`-01, -02` → バージョン**  
-  - 機能に影響しない小変更。  
-  - 例：メッキ厚変更、寸法公差修正。  
-
-- **`-11, -21` → 金型違い**  
-  - 同じ機能の部品を複数金型で製造する場合に付与。  
-
-- **`-51, -52` → 製造地違い**  
-  - 生産工場の違いを区別。トレーサビリティ確保のため重要。  
-
-- **`-99` → 暫定・特採**  
-  - 正式承認前の暫定利用や特例採用部品。  
-  - 本運用時には速やかに正規コードへ移行する必要あり。  
-
-👉 **機能が変わる場合は新しい6桁コードを発行**。  
-（例：構造設計変更、仕様書更新に伴う互換性消失）  
+🔎 **ポイント | Notes**  
+- 1桁目でカテゴリ分類することで検索・集計が容易。  
+  *Easy classification & search by first digit.*  
+- **「6番＝材料 / Materials」** は規制対応必須（SDS・消防法・環境規制）。  
+  *Digit 6 (Materials) requires strict compliance with SDS, Fire Law, and environmental regulations.*  
 
 ---
 
-## 💡 解説ポイント
+## 🏷 枝番ルール | Suffix Rules
 
-1. **6桁コード = 機能アイデンティティ**  
-   - 「その部品は何をするものか」を固定化する。  
-   - 図面・仕様書と必ず紐付けて管理する。  
+| **枝番 / Suffix** | **意味 / Meaning** | **適用例 / Examples** |
+|-------------------|--------------------|------------------------|
+| **-01, -02** | バージョンアップ / Version update | メッキ厚変更、寸法公差修正 / Plating thickness change, tolerance adjustment |
+| **-11, -21** | 金型違い / Different mold | 同一部品を複数金型で製造 / Produced with multiple molds |
+| **-51, -52** | 製造地違い / Different factory | 生産工場ごとの区別 / Different production sites |
+| **-99** | 暫定・特採 / Temporary or special approval | 正式承認前の利用 / Pre-approval or special adoption |
 
-2. **枝番 = トレーサビリティ・改版管理**  
-   - 軽微な変更、製造条件、製造地、金型などの差を記録。  
-   - 製品ライフサイクルにおける「いつ・どこで・どの条件で作られたか」を追跡可能にする。  
-
-3. **材料コードは特別扱い**  
-   - 環境法規制（RoHS/REACH）、消防法、輸出管理（該非判定）の影響が大きい。  
-   - コード付与と同時に **SDS・環境データをセットで登録** するのが実務上必須。  
+👉 **機能が変わる場合は新しい6桁コードを発行**  
+*If the **function changes**, a **new 6-digit part code** must be issued.*  
 
 ---
 
-✅ このルールを徹底することで、  
-- **設計変更の影響範囲を迅速に判断**  
-- **製造・環境・輸出管理との整合性を確保**  
-- **トレーサビリティを担保し、監査にも耐えられる体系**  
+## 💡 解説ポイント | Key Insights
 
-を実現できます。
+1. **6桁コード = 機能アイデンティティ / Functional Identity**  
+   - 図面・仕様と必ずリンク / Always linked with drawings & specs.  
+   - 機能が変わらない限り同じ6桁を維持 / 6-digit stays the same unless function changes.  
+
+2. **枝番 = 改版・条件管理 / Revision & Condition Tracking**  
+   - 軽微な変更や製造条件差を記録 / Records minor changes, mold, or site differences.  
+   - トレーサビリティ確保に必須 / Critical for traceability.  
+
+3. **材料コードは特別扱い / Materials Need Special Handling**  
+   - 環境法規制（RoHS/REACH）、消防法、輸出規制に直結 / Directly tied to RoHS/REACH, Fire Law, export control.  
+   - **SDS & 環境データをセット登録 / Register with SDS & environmental data together.**  
+
+---
+
+✅ **このルールを徹底することで | By following these rules:**  
+- 設計変更の影響範囲を迅速に判断  
+  *Quickly assess impact of design changes*  
+- 製造・環境・輸出管理との整合性を確保  
+  *Ensure consistency with manufacturing, environmental, and export controls*  
+- トレーサビリティを担保し、監査にも耐えられる体系を実現  
+  *Maintain traceability and withstand audits*  
