@@ -6,12 +6,21 @@ date: 2025-08-18
 tags: ["BOM", "部品コード", "設計管理", "輸出管理", "環境データ", "コスト管理"]
 ---
 
----
-
 # 06_bom_generation
 
 **部品表（BOM）の作成と設計情報の構造化**  
 **Bill of Materials (BOM) Generation and Structured Design Data**
+
+---
+
+## 📑 目次 | Table of Contents
+
+1. [📘 概要 | Overview](1_overview.md)  
+2. [🔢 部品コード体系 | Part Numbering System](2_part_numbering.md)  
+3. [📎 属性と輸出管理 | Attributes & Export Control](3_attributes.md)  
+4. [📊 積み上げ管理 | Roll-up Management](4_rollup_management.md)  
+5. [⚖️ 運用ルール | Rules](5_rules.md)  
+6. [🧪 演習課題 | Exercises](6_exercises.md)  
 
 ---
 
