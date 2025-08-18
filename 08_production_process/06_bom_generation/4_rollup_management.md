@@ -2,6 +2,8 @@
 title: "Roll-up Management"
 ---
 
+---
+
 # 📊 積み上げ管理 | Roll-up Management
 
 ## 基本概念
