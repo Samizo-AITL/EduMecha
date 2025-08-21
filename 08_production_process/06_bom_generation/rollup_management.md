@@ -52,3 +52,8 @@ flowchart TD
 
 👉 積み上げ管理は **見える化** と **判断の自動化** の基盤。  
 👉 *Roll-up management enables **visualization** and **automation of decisions**, especially when integrated into PLM/ERP systems.*  
+
+---
+
+[🔝 08_production_process/06_bom_generation に戻る ](./)
+
