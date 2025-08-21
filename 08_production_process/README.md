@@ -133,4 +133,4 @@ Feel free to submit a PR or join the [Discussions](https://github.com/Samizo-AIT
 
 ---
 
-[🔝 トップに戻る / Back to top](./)
+[🔝 トップに戻る / Back to top](../)
