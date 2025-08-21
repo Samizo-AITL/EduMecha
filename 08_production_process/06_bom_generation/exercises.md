@@ -49,3 +49,8 @@ description: "演習課題：BOMと設計実務の習得 / Exercises: BOM & Desi
 
 👉 これらの演習を通じて、**設計情報を「単なる図面」から「製品ライフサイクル管理データ」へ昇華させる力** を身につける。  
 👉 Through these exercises, you will gain the ability to transform design data from **mere drawings** into **product lifecycle management assets**.  
+
+---
+
+[🔝 08_production_process/06_bom_generation に戻る ](./)
+
