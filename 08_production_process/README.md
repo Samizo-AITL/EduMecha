@@ -39,6 +39,15 @@ flowchart TD
 
 ---
 
+## 🔗 **実務フロー拡張版 | Practical Workflow (Extended)**
+
+標準フローに加え、実際の現場で行われる  
+**環境データ積み上げ判定・コスト積み上げ・輸出管理(該非判定/ECCN/HSコード/用途説明書)** を含んだ詳細フローを整理しています。  
+
+👉 [📄 実務フロー詳細を見る](./production_process_flow.md)
+
+---
+
 ## 📂 **ディレクトリ構成 | Directory Structure**
 
 | 📁 フォルダ | 📘 内容 / Description |
