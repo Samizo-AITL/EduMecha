@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Roll-up Management"
+description: "積み上げ管理による評価とコスト・環境・輸出判定 / Roll-up Management for Cost, Environment, and Export"
 ---
 
 ---
