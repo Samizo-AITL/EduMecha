@@ -25,18 +25,24 @@ flowchart TD
   E --> F["技術通知 / Technical Notice"]
   F --> G["関係部署配布 / Distribution to Departments"]
   G --> H["構成部品表接続 / BOM Linkage"]
-  H --> I["構成部品表通知 / BOM Notice"]
+
+  %% 新規追加ステップ
+  H --> H1["環境データ積み上げ判定 (EChemSkip) / Environmental Compliance Check"]
+  H --> H2["コスト積み上げ / Cost Roll-up"]
+
+  H1 --> I["構成部品表通知 / BOM Notice"]
+  H2 --> I
+
   I --> J["関係部署配布(BOM) / Distribution (BOM)"]
   J --> K["調達BOM反映 / Procurement BOM Integration"]
   K --> L["量産部品発注 / Mass Production Parts Ordering"]
 
-  %% 設計段階で付与される属性
+  %% 属性群
   S1["属性(設計時必須) / Design-time Attributes
   - 図面番号/Rev
   - RoHS/REACH, LCA, SDS
-  - コスト"] -.-> H
+  - コスト(基礎)"] -.-> H
 
-  %% 調達後、輸出時に追加される属性
   S2["属性(輸出時追加) / Export-time Attributes
   - 輸出管理(ECCN)
   - 該非判定(Result of Export Control Classification)
