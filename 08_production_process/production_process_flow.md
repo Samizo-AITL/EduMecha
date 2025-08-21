@@ -26,20 +26,22 @@ flowchart TD
   F --> G["関係部署配布 / Distribution to Departments"]
   G --> H["構成部品表接続 / BOM Linkage"]
   H --> I["構成部品表通知 / BOM Notice"]
-  I --> J["関係部署配布(構成部品表) / Distribution (BOM)"]
+  I --> J["関係部署配布(BOM) / Distribution (BOM)"]
   J --> K["調達BOM反映 / Procurement BOM Integration"]
   K --> L["量産部品発注 / Mass Production Parts Ordering"]
 
-  %% 横から入る属性群（06_bom_generation/3_attributes.md）
-  S["部品コードと紐づける属性 / Attributes linked to Part Numbers
-  - 図面(Drawing/番号/Rev)
-  - 環境(RoHS/REACH/LCA/SDS)
-  - コスト(Cost)
+  %% 設計段階で付与される属性
+  S1["属性(設計時必須) / Design-time Attributes
+  - 図面番号/Rev
+  - RoHS/REACH, LCA, SDS
+  - コスト"] -.-> H
+
+  %% 調達後、輸出時に追加される属性
+  S2["属性(輸出時追加) / Export-time Attributes
   - 輸出管理(ECCN)
-  - HSコード(HS Code)
-  - 用途説明(End-use)
-  - 消防法(Fire Law)
-  - SDS更新時はBOM改訂必須"] -.-> H
+  - 該非判定(Result of Export Control Classification)
+  - HSコード
+  - 用途説明書(End-use Statement)"] -.-> K
 ```
 
 ---
