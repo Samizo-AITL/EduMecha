@@ -1,9 +1,6 @@
 ---
-title: "Attributes and Export Control"
-description: "部品コードに紐づける属性と輸出関連管理のポイント | Attributes linked to part numbers and export control essentials"
-author: "Project Design Hub"
-date: 2025-08-18
-tags: ["BOM", "部品コード", "環境データ", "コスト管理", "輸出管理", "SDS", "消防法"]
+layout: default
+title: "Attributes & Export Control"
 ---
 
 ---
