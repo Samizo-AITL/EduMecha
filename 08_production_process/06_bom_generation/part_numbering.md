@@ -80,4 +80,9 @@ ABCDEF-XX
 - 製造・環境・輸出管理との整合性を確保  
   *Ensure consistency with manufacturing, environmental, and export controls*  
 - トレーサビリティを担保し、監査にも耐えられる体系を実現  
-  *Maintain traceability and withstand audits*  
+  *Maintain traceability and withstand audits*
+
+---
+
+[🔝 08_production_process/06_bom_generation に戻る ](./)
+
