@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Part Numbering System"
+description: "部品コード体系のルールと設計情報管理 / Rules of Part Numbering System"
 ---
 
 ---
