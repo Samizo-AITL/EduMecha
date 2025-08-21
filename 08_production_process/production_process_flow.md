@@ -18,17 +18,28 @@ title: 設計から量産部品発注までの実務フロー | Design to Mass P
 
 ```mermaid
 flowchart TD
-  A[設計図面検討会 / Design Drawing Review] --> B[設計図面 / Design Drawing]
-  B --> C[設計通知 / Design Notice]
-  C --> D[技術図面検討会 / Technical Drawing Review]
-  D --> E[技術図面 加工図面・組図 / Technical Drawings]
-  E --> F[技術通知 加工図面・組図　/ Technical Notice]
-  F --> G[関係部署配布 / Distribution to Departments]
-  G --> H[構成部品表接続 / BOM Linkage]
-  H --> I[技術通知 構成部品表 / Technical Notice Update]
-  I --> J[関係部署配布 / Distribution Update]
-  J --> K[調達BOM反映 / Procurement BOM Integration]
-  K --> L[量産部品発注 / Mass Production Parts Ordering]
+  A["設計図面検討会 / Design Drawing Review"] --> B["設計図面 / Design Drawing"]
+  B --> C["設計通知 / Design Notice"]
+  C --> D["技術図面検討会 / Technical Drawing Review"]
+  D --> E["技術図面(加工図面・組図) / Technical Drawings"]
+  E --> F["技術通知 / Technical Notice"]
+  F --> G["関係部署配布 / Distribution to Departments"]
+  G --> H["構成部品表接続 / BOM Linkage"]
+  H --> I["構成部品表通知 / BOM Notice"]
+  I --> J["関係部署配布(構成部品表) / Distribution (BOM)"]
+  J --> K["調達BOM反映 / Procurement BOM Integration"]
+  K --> L["量産部品発注 / Mass Production Parts Ordering"]
+
+  %% 横から入る属性群（06_bom_generation/3_attributes.md）
+  S["部品コードと紐づける属性 / Attributes linked to Part Numbers
+  - 図面(Drawing/番号/Rev)
+  - 環境(RoHS/REACH/LCA/SDS)
+  - コスト(Cost)
+  - 輸出管理(ECCN)
+  - HSコード(HS Code)
+  - 用途説明(End-use)
+  - 消防法(Fire Law)
+  - SDS更新時はBOM改訂必須"] -.-> H
 ```
 
 ---
