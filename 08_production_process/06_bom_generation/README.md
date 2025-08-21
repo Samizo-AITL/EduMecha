@@ -58,4 +58,4 @@ BOMは単なる部品リストではなく、**設計〜調達〜生産〜輸出
 
 ---
 
-[🔝 08_production_process/README.mdに戻る ](../)
+[🔝 08_production_process/README.mdに戻る ](./)
