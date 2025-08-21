@@ -47,9 +47,11 @@ description: "部品コード体系とBOMの意義 / Overview of Part Numbering 
 
 ## 💡 ポイント | Key Takeaways
 
-- **部品コード = 機能ID | Part code = Functional identity**  
-- **BOM = 製品ライフサイクルの中核 | BOM = Core of product lifecycle**  
-- **規制対応 = グローバル展開の必須要件 | Compliance = Essential for global business**  
+| 日本語 | English |
+|--------|---------|
+| 部品コード = 機能ID | Part code = Functional identity |
+| BOM = 製品ライフサイクルの中核 | BOM = Core of product lifecycle |
+| 規制対応 = グローバル展開の必須要件 | Compliance = Essential for global business |
 
 👉 この章を通じて、BOMを「図面の付属表」から **製品ライフサイクルを貫く経営資産** として理解する。  
 👉 *By the end of this chapter, you will understand the BOM not as an appendix to drawings, but as a **strategic asset driving the entire product lifecycle***.  
