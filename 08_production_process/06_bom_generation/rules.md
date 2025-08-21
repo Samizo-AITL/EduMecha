@@ -50,4 +50,9 @@ flowchart TD
 
 - **材料コードは特別扱い / Materials are special cases**  
   → SDSと環境・輸出・消防法判定が必須。  
-  → SDS, environmental/export/fire law compliance are mandatory.  
+  → SDS, environmental/export/fire law compliance are mandatory.
+
+---
+
+[🔝 08_production_process/06_bom_generation に戻る ](./)
+
