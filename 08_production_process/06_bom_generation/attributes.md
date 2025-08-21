@@ -67,3 +67,7 @@ description: "属性情報と輸出管理の仕組み / Attributes Management an
 
 👉 **デュアルユース品は「該非判定書＋用途説明書」が必須**  
 *Dual-use items always require both Export Classification documents and End-use Statements.*
+
+---
+
+[🔝 トップに戻る / Back to top](./)
