@@ -127,6 +127,15 @@ flowchart TD
 
 ---
 
+## 🔗 関連教材リンク | Related Materials
+
+本実務フローに関連して、**部品表（BOM）の生成**や**設計情報の構造化**を扱った教材も公開しています。  
+In relation to this workflow, teaching materials on **BOM generation** and **structured design information** are also available.  
+
+- [BOM生成と設計情報の構造化 / BOM Generation and Structured Design Information ›](https://samizo-aitl.github.io/EduMecha/08_production_process/06_bom_generation/)
+
+---
+
 ## 👤 著作・ライセンス | Author & License
 - ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
   *Author: Shinichi Samizo (Samizo-AITL)*  
