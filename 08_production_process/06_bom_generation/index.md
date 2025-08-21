@@ -54,4 +54,10 @@ BOMは単なる部品リストではなく、**設計〜調達〜生産〜輸出
 - 積み上げ管理（コスト・環境・輸出可否）の考え方を学ぶ  
   *Learn roll-up management for cost, environmental, and export compliance.*  
 - 危険物（材料6番コード）の特別管理を理解する  
-  *Understand special management for hazardous materials (category code 6).*  
+  *Understand special management for hazardous materials (category code 6).*
+
+---
+
+[🔝 08_production_process/README.mdに戻る ](../)
+
+
