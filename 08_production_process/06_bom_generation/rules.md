@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Rules"
+description: "BOM運用ルールと設計実務フロー / Rules for BOM Operation and Design Practice"
 ---
 
 ---
