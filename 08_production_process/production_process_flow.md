@@ -26,7 +26,7 @@ flowchart TD
   F --> G[関係部署配布 / Distribution to Departments]
   G --> H[構成部品表接続 / BOM Linkage]
   H --> I[技術通知 構成部品表 / Technical Notice Update]
-  I --> J[関係部署配布 更新 / Distribution Update]
+  I --> J[関係部署配布 / Distribution Update]
   J --> K[調達BOM反映 / Procurement BOM Integration]
   K --> L[量産部品発注 / Mass Production Parts Ordering]
 ```
