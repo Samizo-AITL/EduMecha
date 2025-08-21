@@ -144,4 +144,4 @@ In relation to this workflow, teaching materials on **BOM generation** and **str
 
 ---
 
-[🔝 トップに戻る / Back to top](https://samizo-aitl.github.io/EduMecha/08_production_process/)
+[🔝 トップに戻る / Back to top](https://samizo-aitl.github.io/EduMecha/08_production_process/index.html)
