@@ -55,3 +55,8 @@ description: "部品コード体系とBOMの意義 / Overview of Part Numbering 
 
 👉 この章を通じて、BOMを「図面の付属表」から **製品ライフサイクルを貫く経営資産** として理解する。  
 👉 *By the end of this chapter, you will understand the BOM not as an appendix to drawings, but as a **strategic asset driving the entire product lifecycle***.  
+
+---
+
+[🔝 08_production_process/06_bom_generation に戻る ](./)
+
