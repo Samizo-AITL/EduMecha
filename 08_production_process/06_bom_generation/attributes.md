@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Attributes & Export Control"
+description: "属性情報と輸出管理の仕組み / Attributes Management and Export Control"
 ---
 
 ---
