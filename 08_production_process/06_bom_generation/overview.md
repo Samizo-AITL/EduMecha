@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Overview"
+description: "部品コード体系とBOMの意義 / Overview of Part Numbering System and BOM"
 ---
 
 ---
