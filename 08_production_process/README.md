@@ -129,4 +129,8 @@ Feel free to submit a PR or join the [Discussions](https://github.com/Samizo-AIT
 
 - ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
 - 📜 ライセンス / License: **MIT** （教育目的での使用・改変を歓迎）  
-  MIT License (Free use and modification for educational purposes)  
+  MIT License (Free use and modification for educational purposes)
+
+---
+
+[🔝 トップに戻る / Back to top](#top)
