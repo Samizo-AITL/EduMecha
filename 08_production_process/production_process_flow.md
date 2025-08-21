@@ -50,6 +50,12 @@ flowchart TD
   - 該非判定(Result of Export Control Classification)
   - HSコード
   - 用途説明書(End-use Statement)"] -.-> K
+
+ %% 横から加わる評価・計測情報
+  P1["試作評価 / Prototype Evaluation\n(寸法測定・性能検証)"] -.-> B
+  P2["量産評価 / Mass Production Evaluation\n(工程能力 Cp/Cpk, 品質検証)"] -.-> E
+  P3["計測器情報 / Measurement Instruments\n(三次元測定機, マイクロメータ, 真円度計 等)"] -.-> E
+
 ```
 
 ---
