@@ -70,4 +70,4 @@ description: "属性情報と輸出管理の仕組み / Attributes Management an
 
 ---
 
-[🔝 トップに戻る / Back to top](./)
+[🔝 08_production_process/06_bom_generation に戻る ](./)
