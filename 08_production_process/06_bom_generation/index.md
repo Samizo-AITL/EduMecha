@@ -18,13 +18,15 @@ tags: ["BOM", "部品コード", "設計管理", "輸出管理", "環境デー�
 
 ## 📑 目次 | Table of Contents
 
-1. [📘 概要 | *Overview*](overview.html)
-2. [🔢 部品コード体系 | *Part Numbering System*](part_numbering.html)
-3. [📎 属性と輸出管理 | *Attributes & Export Control*](attributes.html)
-4. [📊 積み上げ管理 | *Roll-up Management*](rollup_management.html)
-5. [⚖️ 運用ルール | *Rules*](rules.html)
-6. [🧪 演習課題 | *Exercises*](exercises.html)
+## 📑 目次 | Table of Contents
 
+1. [📘 概要 – *Overview*](overview.html)
+2. [🔢 部品コード体系 – *Part Numbering System*](part_numbering.html)
+3. [📎 属性と輸出管理 – *Attributes & Export Control*](attributes.html)
+4. [📊 積み上げ管理 – *Roll-up Management*](rollup_management.html)
+5. [⚖️ 運用ルール – *Rules*](rules.html)
+6. [🧪 演習課題 – *Exercises*](exercises.html)
+   
 ---
 
 ## 📘 概要 | Overview
