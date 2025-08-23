@@ -2,16 +2,17 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>{{ page.title | default: site.title }}</title>
+  <meta name="color-scheme" content="light"><!-- 端末の自動ダークを無効化 -->
 
-  <!-- ベースCSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- ベースCSS（キャッシュバスター付きで常に最新を取得） -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
-  <!-- 追加CSS（_config.yml の extra_css で指定されていれば） -->
+  <!-- 追加CSS（_config.yml の extra_css があれば反映） -->
   {% if site.extra_css %}
     {% for css in site.extra_css %}
-      <link rel="stylesheet" href="{{ css | relative_url }}">
+      <link rel="stylesheet" href="{{ css | relative_url }}?v={{ site.time | date: '%s' }}">
     {% endfor %}
   {% endif %}
 
@@ -19,27 +20,35 @@
   {%- if page.math == 'katex' -%}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-      onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});">
     </script>
   {%- elsif page.math == 'mathjax' -%}
-    <script>window.MathJax={tex:{inlineMath:[['$','$'],['\$begin:math:text$','\\$end:math:text$']]}};</script>
-    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+      window.MathJax = {
+        tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+        options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   {%- endif -%}
 </head>
-<body>
-  <main class="page">
-    {{ content }}
+
+<!-- ★ ポータル統一：セピアテーマ固定 -->
+<body class="theme-sepia">
+  <main class="page" aria-label="Content">
+    <!-- 左詰め＋幅制限（必要ならCSSへ移してOK） -->
+    <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
+      {{ content }}
+    </div>
   </main>
 
-  <!-- Mermaid.js（ページ内の ```mermaid ブロックを自動描画） -->
+  <!-- Mermaid.js：```mermaid を自動描画 -->
   <script type="module">
-    // 1) コードブロック（```mermaid）を <div class="mermaid"> に置換
+    // 1) ```mermaid を <div class="mermaid"> に置換
     document.addEventListener('DOMContentLoaded', () => {
-      const targets = document.querySelectorAll('pre > code.language-mermaid, pre > code.mermaid, code.language-mermaid');
-      targets.forEach(code => {
+      const nodes = document.querySelectorAll('pre > code.language-mermaid, pre > code.mermaid, code.language-mermaid');
+      nodes.forEach(code => {
         const pre = code.closest('pre') || code;
         const div = document.createElement('div');
         div.className = 'mermaid';
@@ -48,11 +57,12 @@
       });
     });
 
-    // 2) Mermaid を読み込み＆初期化
+    // 2) Mermaid 読み込み＆初期化（ライト固定）
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({
       startOnLoad: true,
-      securityLevel: 'loose'  // 外部フォント等を使う場合に便利
+      securityLevel: 'loose',
+      theme: 'default'
     });
   </script>
 </body>
