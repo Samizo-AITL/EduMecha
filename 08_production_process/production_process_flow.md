@@ -5,21 +5,21 @@ title: 設計から量産部品発注までの実務フロー | Design to Mass P
 
 ---
 
-# 🏭 設計から量産部品発注までの実務フロー  
-*Practical Workflow: From Design to Mass Production Parts Ordering*
+# 🏭 設計から量産部品発注までの一般的なフロー  
+*General Workflow: From Design to Mass Production Parts Ordering*
 
 > **注記｜Notice**  
-> 本資料は、一般的な製造業における実務フローを抽象化した教育用コンテンツであり、特定企業の機密情報を含みません。  
-> *This document abstracts a practical workflow commonly used in manufacturing and is intended for educational use. It does not contain any proprietary information of a specific company.*
+> 本資料は、製造業において広く見られる一般的な実務フローを教育用に抽象化したものであり、特定企業の社内情報や機密情報は含みません。  
+> *This material abstracts a workflow commonly observed in manufacturing industries for educational purposes. It does not contain any proprietary or internal company information.*
 
 ---
 
 ## 📘 概要 | Overview
-本資料は、設計段階から量産部品発注に至るまでの社内実務フローを整理したものです。  
-*This material organizes the in-house workflow from design to mass-production parts ordering.*
+本資料は、設計段階から量産部品発注に至るまでの **一般的な製造業の実務プロセス** を体系的に整理したものです。  
+*This document systematically organizes a general workflow in manufacturing industries, from design to mass-production parts ordering.*
 
-「設計図面検討会」「技術図面検討会」「通知・配布」「BOM連携」「量産部品発注」までを体系的に示します。  
-*It systematically covers design/technical drawing reviews, notices and distribution, BOM linkage, and ordering of mass-production parts.*
+「設計図面検討」「技術図面レビュー」「関係部署への通知と配布」「BOM（部品表）との連携」「量産部品の発注」といったステップを網羅します。  
+*It covers steps such as design drawing reviews, technical drawing discussions, notices and distribution to related departments, BOM (Bill of Materials) linkage, and ordering of mass-production parts.*
 
 ---
 
