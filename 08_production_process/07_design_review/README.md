@@ -5,6 +5,14 @@
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/07_design_review/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process/07_design_review) |
+
+---
+
 ## 📘 概要 | Overview
 
 このセクションでは、製品設計の各段階で行う**設計レビュー（DR）**の準備と実施方法を学びます。  
