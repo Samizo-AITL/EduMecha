@@ -16,6 +16,14 @@ tags: ["BOM", "部品コード", "設計管理", "輸出管理", "環境デー�
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/06_bom_generation/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process/06_bom_generation) |
+
+---
+
 ## 📑 目次 | Table of Contents
 
 | # | 日本語 | English | Link |
