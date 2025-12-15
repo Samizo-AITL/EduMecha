@@ -5,6 +5,14 @@
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/08_mp_guideline/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process/08_mp_guideline) |
+
+---
+
 ## 📘 概要 | Overview
 
 このセクションでは、試作・DR・BOMなどの情報を基に、量産設計へ移行するための**設計体制・構成管理・工程設計**の基本的な視点を学びます。  
