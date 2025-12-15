@@ -12,6 +12,14 @@ title: 08_production_process - 設計から量産立上げ | Design to Mass Prod
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process) |
+
+---
+
 ## 📘 **概要 | Overview**
 
 本セクションでは、**Creoを用いた設計初期段階から、量産図面作成、BOM（部品表）生成、設計レビュー（DR）を経て、MP（Mass Production：量産）に至るまでの一連の実践プロセス**を学びます。  
