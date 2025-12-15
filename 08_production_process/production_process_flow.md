@@ -14,14 +14,6 @@ title: 設計から量産部品発注までの実務フロー | Design to Mass P
 
 ---
 
-## 🔗 公式リンク | Official Links
-
-| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
-|-----------------|----------------|-----------|
-| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/08_mp_guideline/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process/08_mp_guideline) |
-
----
-
 ## 📘 概要 | Overview
 本資料は、設計段階から量産部品発注に至るまでの **一般的な製造業の実務プロセス** を体系的に整理したものです。  
 *This document systematically organizes a general workflow in manufacturing industries, from design to mass-production parts ordering.*
