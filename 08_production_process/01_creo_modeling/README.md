@@ -5,6 +5,14 @@
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/01_creo_modeling/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/08_production_process/01_creo_modeling) |
+
+---
+
 ## 📘 概要 | Overview
 
 このセクションでは、PTC Creo Parametricを使用して、基本的な3Dモデリング手法とパラメトリック設計の考え方を学びます。  
