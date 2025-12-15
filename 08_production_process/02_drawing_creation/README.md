@@ -5,6 +5,14 @@
 
 ---
 
+## 🔗 公式リンク | Official Links
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduMecha/08_production_process/02_drawing_creation/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process/02_drawing_creation) |
+
+---
+
 ## 📘 概要 | Overview
 
 このセクションでは、Creoで作成した3Dモデルをもとに、設計意図を明確に伝えるための2D図面を作成します。  
