@@ -1,21 +1,39 @@
 /* ===== Reset & Base ===== */
 html, body {
-  margin:0; padding:0;
+  margin:0;
+  padding:0;
   background:#fdf6e3;              /* ポータル統一：セピア背景 */
   color:#2e2a24;
 }
-.site-header, .site-footer,
-.page-header, .page-footer { display:none !important; }
-.page-content { padding:0 !important; margin:0 !important; }
 
-/* ===== Body ===== */
+.site-header, .site-footer,
+.page-header, .page-footer {
+  display:none !important;
+}
+
+.page-content {
+  padding:0 !important;
+  margin:0 !important;
+}
+
+/* ===== Body (TECHNICAL FONT) ===== */
 main.page {
   max-width:980px;
   margin:0 auto;
   padding:1.5rem 1rem;
   line-height:1.8;
-  font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",
-              "Segoe UI","Helvetica Neue",Arial,sans-serif;
+
+  /* ★ 技術フォーム（半導体／制御／仕様書 標準） */
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic UI",
+    "Yu Gothic",
+    sans-serif;
+
   word-wrap:anywhere;
   font-size:1.05em;
 }
@@ -28,13 +46,19 @@ h1, h2, h3 {
   color:#003366;                   /* 濃い青で統一 */
   border-bottom:none;
 }
+
 h1 { font-size:2em; text-align:left; }
 h2 { font-size:1.5em; }
 h3 { font-size:1.2em; }
 
 /* ===== Paragraph / Lists ===== */
 p { margin:0.7em 0; }
-ul, ol { margin:0.6em 0 0.6em 1.4em; padding-left:1.2em; }
+
+ul, ol {
+  margin:0.6em 0 0.6em 1.4em;
+  padding-left:1.2em;
+}
+
 li + li { margin-top:0.25em; }
 
 /* ===== Links ===== */
@@ -52,7 +76,7 @@ hr {
   margin:1.4em 0;
 }
 
-/* ===== Tables ===== */
+/* ===== Tables (datasheet / spec style) ===== */
 table {
   border-collapse:collapse;
   width:100%;
@@ -60,24 +84,35 @@ table {
   font-size:1em;
   border:2px solid #999;           /* 外枠は太め */
 }
+
 th, td {
   border:1.5px solid #bbb;
   padding:0.7em 1em;
   vertical-align:top;
   color:#2b2b2b;
 }
+
 th {
   background:#e9ddc9;              /* 薄茶ヘッダー */
   font-weight:700;
   text-align:left;
 }
+
 tr:nth-child(odd) td  { background:#ffffff; }
 tr:nth-child(even) td { background:#f3efe6; }
 
 /* ===== Code / Pre ===== */
 code, pre {
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
 }
+
 pre {
   overflow:auto;
   padding:0.9em 1em;
@@ -86,6 +121,7 @@ pre {
   border-radius:6px;
   margin:0.8em 0;
 }
+
 pre code {
   background:transparent;
   padding:0;
@@ -116,11 +152,19 @@ img {
   text-align:center;
   overflow:auto;
 }
-.mermaid svg { height:auto; }
+
+.mermaid svg {
+  height:auto;
+}
 
 /* ===== Small helpers ===== */
 kbd {
-  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    monospace;
   font-size:0.9em;
   border:1px solid #d0d7de;
   border-bottom-width:2px;
@@ -131,9 +175,14 @@ kbd {
 
 /* ===== Mobile tweak ===== */
 @media (max-width:640px){
-  main.page{ padding:1rem; font-size:1em; }
-  h1{ font-size:1.6rem; }
-  h2{ font-size:1.35rem; }
-  h3{ font-size:1.15rem; }
+  main.page {
+    padding:1rem;
+    font-size:1em;
+  }
+
+  h1 { font-size:1.6rem; }
+  h2 { font-size:1.35rem; }
+  h3 { font-size:1.15rem; }
+
   table { font-size:0.95em; }
 }
