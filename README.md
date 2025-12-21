@@ -81,9 +81,6 @@ It provides a framework for **2D-to-3D modeling**, **design intent visualization
 - 🧩 **組立設計と部品図演習の教材構成**  
   *Assembly modeling and drawing template design*
 
-- 🛠 **AITL-H知能制御との統合設計構想**  
-  *Integration with AITL-H intelligent control system*
-
 - 📊 **CAE連携の教育設計視点**  
   *Pedagogical integration with tools like Creo Simulate*
 
@@ -112,10 +109,6 @@ It provides a framework for **2D-to-3D modeling**, **design intent visualization
 
 | 📌 プロジェクト / Project | 📘 内容 / Description | 🔗 リンク / Links |
 |---------------------------|------------------------|-------------------|
-| 🎓 **Edusemi-v4x** | 半導体プロダクト開発のための基礎教育教材<br>Fundamentals of Semiconductor Product Development | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
-| 🎛 **EduController** | 制御理論／AI制御教材<br>Control Theory & AI Control | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
-| 🤖 **AITL-H** | 知能制御統合アーキテクチャ<br>Intelligent Control Integration Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
-| 🧠 **SamizoGPT** | 教材構成・プロンプト支援<br>Educational Content & Prompt Support | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
 | 🖨️ **Inkjet** | インクジェット技術アーキテクチャ教材<br>Inkjet Technology Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
 | ⚙️ **PTC Creo Parametric（公式）** | 商用3D CAD<br>Commercial 3D CAD | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
 
