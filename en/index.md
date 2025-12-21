@@ -89,10 +89,6 @@ It supports planning for **2D-to-3D modeling**, **design intent visualization**,
 
 | 📌 Project | 📘 Description | 🔗 Links |
 |------------|----------------|----------|
-| 🎓 **Edusemi-v4x** | Fundamentals of Semiconductor Product Development | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Edusemi-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Edusemi-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) |
-| 🎛 **EduController** | Control Theory & AI Control | [![🌐 View Site](https://img.shields.io/badge/View%20Site-EduController-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-EduController-blue?logo=github)](https://github.com/Samizo-AITL/EduController) |
-| 🤖 **AITL-H** | Intelligent Control Integration Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-AITL--H-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-AITL--H-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) |
-| 🧠 **SamizoGPT** | Educational Content & Prompt Support | [![🌐 View Site](https://img.shields.io/badge/View%20Site-SamizoGPT-brightgreen?logo=github)](https://samizo-aitl.github.io/SamizoGPT/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-SamizoGPT-blue?logo=github)](https://github.com/Samizo-AITL/SamizoGPT) |
 | 🖨️ **Inkjet** | Inkjet Technology Architecture | [![🌐 View Site](https://img.shields.io/badge/View%20Site-Inkjet-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)<br>[![💻 View Repo](https://img.shields.io/badge/View%20Repo-Inkjet-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet) |
 | ⚙️ **PTC Creo Parametric (Official)** | Commercial 3D CAD | [![🌐 View Site](https://img.shields.io/badge/View%20Site-PTC%20Creo-brightgreen?logo=ptc)](https://www.ptc.com/en/products/creo) |
 
