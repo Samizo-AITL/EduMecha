@@ -102,7 +102,7 @@ It supports planning for **2D-to-3D modeling**, **design intent visualization**,
 | **Education** | M.Eng., Electrical & Electronic Engineering, Shinshu University |
 | **Career** | Former Engineer, Seiko Epson Corp. (1997–) |
 | **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Inkjet thin-film piezo actuators<br>PrecisionCore printhead development, BOM management, ISO training |
-| **Contact** | ✉️ [Email](mailto:shin3t72@gmail.com) / 🐦 [X](https://x.com/shin3t72) / 💻 [GitHub](https://samizo-aitl.github.io/) |
+| **Contact** | 💻 [GitHub](https://samizo-aitl.github.io/) |
 
 ---
 
