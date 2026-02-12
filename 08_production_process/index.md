@@ -5,7 +5,7 @@ title: 08_production_process - 設計から量産立上げ | Design to Mass Prod
 
 ---
 
-# 🏭 **08_production_process - 設計から量産立上げ | Design to Mass Production**
+# 🏭 **Production Process - 設計から量産立上げ | Design to Mass Production**
 
 **設計から量産立上げまでの一貫プロセス教材**  
 **Integrated Process Training from Design to Mass Production**
@@ -60,14 +60,14 @@ flowchart TD
 
 | 📁 フォルダ | 📘 内容 / Description |
 |-------------|-------------------------|
-| [./01_creo_modeling/](./01_creo_modeling/) | 初期モデリング例（パラメトリック設計）<br>Initial parametric modeling |
-| [./02_drawing_creation/](./02_drawing_creation/) | 設計図面（設計意図入り）<br>Initial design drawings |
-| [./03_prototyping/](./03_prototyping/) | 試作とモデル出力（STL等）<br>Prototyping and STL export |
-| [./04_measurement_report/](./04_measurement_report/) | 計測結果と改善点レポート<br>Measurement results & improvement logs |
-| [./05_production_drawing/](./05_production_drawing/) | 量産用製図（材料・公差含む）<br>Production drawings with tolerances & materials |
-| [./06_bom_generation/](./06_bom_generation/) | BOMテンプレートと記入例<br>BOM template and sample |
-| [./07_design_review/](./07_design_review/) | DR資料（チェックリスト・議事録）<br>Design review docs & checklists |
-| [./08_mp_guideline/](./08_mp_guideline/) | 量産移行ガイドライン（工程/構成管理）<br>Guidelines for mass production |
+| [01_creo_modeling](./01_creo_modeling/) | 初期モデリング例（パラメトリック設計）<br>Initial parametric modeling |
+| [02_drawing_creation](./02_drawing_creation/) | 設計図面（設計意図入り）<br>Initial design drawings |
+| [03_prototyping](./03_prototyping/) | 試作とモデル出力（STL等）<br>Prototyping and STL export |
+| [04_measurement_report](./04_measurement_report/) | 計測結果と改善点レポート<br>Measurement results & improvement logs |
+| [05_production_drawing](./05_production_drawing/) | 量産用製図（材料・公差含む）<br>Production drawings with tolerances & materials |
+| [06_bom_generation](./06_bom_generation/) | BOMテンプレートと記入例<br>BOM template and sample |
+| [07_design_review](./07_design_review/) | DR資料（チェックリスト・議事録）<br>Design review docs & checklists |
+| [08_mp_guideline](./08_mp_guideline/) | 量産移行ガイドライン（工程/構成管理）<br>Guidelines for mass production |
 
 ---
 
