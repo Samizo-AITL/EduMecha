@@ -60,7 +60,7 @@ flowchart TD
 
 | 📁 フォルダ | 📘 内容 / Description |
 |-------------|-------------------------|
-| `01_creo_modeling/` | 初期モデリング例（パラメトリック設計）<br>Initial parametric modeling |
+| [./01_creo_modeling/](./01_creo_modeling/) | 初期モデリング例（パラメトリック設計）<br>Initial parametric modeling |
 | `02_drawing_creation/` | 設計図面（設計意図入り）<br>Initial design drawings |
 | `03_prototyping/` | 試作とモデル出力（STL等）<br>Prototyping and STL export |
 | `04_measurement_report/` | 計測結果と改善点レポート<br>Measurement results & improvement logs |
