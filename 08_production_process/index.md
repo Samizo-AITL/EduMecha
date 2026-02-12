@@ -3,8 +3,6 @@ layout: default
 title: 08_production_process - 設計から量産立上げ | Design to Mass Production
 ---
 
----
-
 # 🏭 **Production Process - 設計から量産立上げ | Design to Mass Production**
 
 **設計から量産立上げまでの一貫プロセス教材**  
