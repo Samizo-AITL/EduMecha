@@ -28,8 +28,6 @@ title: 08_production_process - 設計から量産立上げ | Design to Mass Prod
 This module provides **hands-on training in the complete development cycle**—from initial 3D CAD modeling using Creo, to creating production-ready drawings, generating BOMs, conducting design reviews, and preparing for mass production.  
 It emphasizes **design intent, prototyping feedback, tolerance/material specification, and configuration management** for practical application.  
 
-🔗 [💻 View Repo](https://github.com/Samizo-AITL/EduMecha/tree/main/08_production_process)
-
 ---
 
 ## 🔁 **設計プロセスフロー | Design-to-MP Workflow**
